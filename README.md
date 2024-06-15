@@ -1,8 +1,8 @@
-## DAT8 Course Repository
+## Repositorio de curso sobre Data Analytics
 
-Course materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/washington-dc/) in Washington, DC (8/18/15 - 10/29/15).
+Materiales de soporte para la formación en Data Analytics
 
-**Instructor:** Kevin Markham ([Data School blog](http://www.dataschool.io/), [email newsletter](http://www.dataschool.io/subscribe/), [YouTube channel](https://www.youtube.com/user/dataschool))
+**Instructor:** Ulises Gonzalez ([Rizoma](http://www.rizo.ma/), [Linkedin](https://www.linkedin.com/in/ulisesgonzalez/)
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/justmarkham/DAT8)
 
@@ -63,12 +63,12 @@ Tuesday | Thursday
 
 -----
 
-### Class 1: Introduction to Data Science
-* Course overview ([slides](slides/01_course_overview.pdf))
-* Introduction to data science ([slides](slides/01_intro_to_data_science.pdf))
-* Discuss the course project: [requirements](project/README.md) and [example projects](https://github.com/justmarkham/DAT-project-examples)
-* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
-* Welcome from General Assembly staff
+### Class 1: Introducción al Business Analytics
+* Resumen del curso([slides](slides/01_course_overview.pdf))
+* Introducción a la ciencia de datos([slides](slides/01_intro_to_data_science.pdf))
+* Discuta el proyecto del curso: [requirements](project/README.md) and [example projects](https://github.com/justmarkham/DAT-project-examples)
+* Tipos de datos([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
+* Bienvenida a la formación
 
 **Homework:**
 * Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows).
