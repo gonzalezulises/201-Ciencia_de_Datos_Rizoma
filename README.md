@@ -148,73 +148,73 @@ Tuesday | Thursday
 * Leer[How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) Para un excelente ejemplo de análisis de datos exploratorios.
 * Leer [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) Para un ejemplo clásico de por qué la visualización es útil.
 
-**Resources:**
-* Browsing or searching the Pandas [API Reference](http://pandas.pydata.org/pandas-docs/stable/api.html) is an excellent way to locate a function even if you don't know its exact name.
-* [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) is a fun (yet enlightening) look at the process of exploratory data analysis.
+**Recursos:**
+* Browsing or searching the Pandas [API Reference](http://pandas.pydata.org/pandas-docs/stable/api.html) es una excelente manera de localizar una función incluso si no sabe su nombre exacto.
+* [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) es una mirada divertida (pero esclarecedora) al proceso de análisis de datos exploratorios.
 
 -----
 
-### Class 5: Visualization
-* Python homework with the Chipotle data due ([solution](code/03_python_homework_chipotle.py), [detailed explanation](notebooks/03_python_homework_chipotle_explained.ipynb))
-* Part 2 of Exploratory Data Analysis with Pandas ([code](code/04_pandas.py))
-* Visualization with Pandas and Matplotlib ([notebook](notebooks/05_pandas_visualization.ipynb))
+### Clase 5: Visualización
+* Tarea de Python con los datos de Chipotle adeudados ([solution](code/03_python_homework_chipotle.py), [detailed explanation](notebooks/03_python_homework_chipotle_explained.ipynb))
+* Parte 2 del análisis de datos exploratorios con pandas([code](code/04_pandas.py))
+* Visualización con pandas y matplotlib ([notebook](notebooks/05_pandas_visualization.ipynb))
 
-**Homework:**
-* Your project question write-up is due on Thursday.
-* Complete the [Pandas homework assignment](code/05_pandas_homework_imdb.py) with the [IMDb data](data/imdb_1000.csv). You have until Tuesday (9/8) to complete this assignment.
-* If you're not using Anaconda, install the [Jupyter Notebook](http://jupyter.readthedocs.org/en/latest/install.html) (formerly known as the IPython Notebook) using `pip`. (The Jupyter or IPython Notebook is included with Anaconda.)
+**Tarea:**
+* El informe de su pregunta de su proyecto se debe el jueves.
+* Completar la [Pandas homework assignment](code/05_pandas_homework_imdb.py) con el [IMDb data](data/imdb_1000.csv). Tiene hasta el martes (9/8) para completar esta tarea.
+* IfNo estás usando Anaconda, instale el[Jupyter Notebook](http://jupyter.readthedocs.org/en/latest/install.html)(anteriormente conocido como el cuaderno de ipython) utilizando`pip`. (El cuaderno Jupyter o Ipython se incluye con Anaconda).
 
-**Pandas Resources:**
-* To learn more Pandas, read this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), or review these two excellent (but extremely long) notebooks on Pandas: [introduction](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).
-* If you want to go really deep into Pandas (and NumPy), read the book [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do), written by the creator of Pandas.
-* This notebook demonstrates the different types of [joins in Pandas](notebooks/05_pandas_merge.ipynb), for when you need to figure out how to merge two DataFrames.
-* This is a nice, short tutorial on [pivot tables](https://beta.oreilly.com/learning/pivot-tables) in Pandas.
-* For working with geospatial data in Python, [GeoPandas](http://geopandas.org/index.html) looks promising. This [tutorial](http://michelleful.github.io/code-blog/2015/04/24/sgmap/) uses GeoPandas (and scikit-learn) to build a "linguistic street map" of Singapore.
+**Recursos de pandas:**
+* Para obtener más pandas, lea esto [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), O revise estos dos cuadernos excelentes (pero extremadamente largos) en Pandas: [introduction](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).
+* Si quieres profundizar en los pandas (y numpy), lee el libro [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do),Escrito por el Creador de Pandas.
+* Este cuaderno demuestra los diferentes tipos de[joins in Pandas](notebooks/05_pandas_merge.ipynb), para cuando necesite descubrir cómo fusionar dos marcos de datos.
+* Este es un buen tutorial breve sobre [pivot tables](https://beta.oreilly.com/learning/pivot-tables) en pandas.
+* Para trabajar con datos geoespaciales en Python, [GeoPandas](http://geopandas.org/index.html) parece prometedor.Este [tutorial](http://michelleful.github.io/code-blog/2015/04/24/sgmap/) Utiliza Geopandas (y Scikit-Learn) para construir un "mapa callejero lingüístico" de Singapur.
 
-**Visualization Resources:**
-* Watch [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk) (18 minutes) for an excellent example of why visualization is useful for understanding your data.
-* For more on Pandas plotting, read this [notebook](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_7-Plotting-with-Pandas.ipynb) or the [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) from the official Pandas documentation.
-* To learn how to customize your plots further, browse through this [notebook on matplotlib](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_4-Matplotlib.ipynb) or this [similar notebook](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb).
-* Read [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html) for a useful comparison of Matplotlib, Pandas, Seaborn, ggplot, Bokeh, Pygal, and Plotly.
-* To explore different types of visualizations and when to use them, [Choosing a Good Chart](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) and [The Graphic Continuum](http://www.coolinfographics.com/storage/post-images/The-Graphic-Continuum-POSTER.jpg) are nice one-page references, and the interactive [R Graph Catalog](http://shiny.stat.ubc.ca/r-graph-catalog/) has handy filtering capabilities.
-* This [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt) from Columbia's Data Mining class contains lots of good advice for properly using different types of visualizations.
-* [Harvard's Data Science course](http://cs109.github.io/2014/) includes an excellent lecture on [Visualization Goals, Data Types, and Statistical Graphs](http://cm.dce.harvard.edu/2015/01/14328/L03/screen_H264LargeTalkingHead-16x9.shtml) (83 minutes), for which the [slides](https://docs.google.com/file/d/0B7IVstmtIvlHLTdTbXdEVENoRzQ/edit) are also available.
+**Recursos de visualización:**
+* Mirar [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk) (18 minutos) Para un excelente ejemplo de por qué la visualización es útil para comprender sus datos.
+* Fo más sobre los pandas tramando, lea esto [notebook](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_7-Plotting-with-Pandas.ipynb) o el [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) De la documentación oficial de Pandas.
+* Para aprender a personalizar aún más sus parcelas, navegue por este [notebook on matplotlib](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_4-Matplotlib.ipynb) o esto[similar notebook](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb).
+* Leer [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html) Para una comparación útil de matplotlib, pandas, seaborn, ggplot, bokeh, pygal y tramly.
+* Para explorar diferentes tipos de visualizaciones y cuándo usarlas, [Choosing a Good Chart](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) y[The Graphic Continuum](http://www.coolinfographics.com/storage/post-images/The-Graphic-Continuum-POSTER.jpg) son buenas referencias de una página y el interactivo [R Graph Catalog](http://shiny.stat.ubc.ca/r-graph-catalog/) tiene prácticas capacidades de filtrado.
+* Esta [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt) De la clase de minería de datos de Columbia contiene muchos buenos consejos para usar adecuadamente los diferentes tipos de visualizaciones.
+* [Harvard's Data Science course](http://cs109.github.io/2014/) Incluye una excelente conferencia sobre[Visualization Goals, Data Types, and Statistical Graphs](http://cm.dce.harvard.edu/2015/01/14328/L03/screen_H264LargeTalkingHead-16x9.shtml) (83 minutos), para el cual el [slides](https://docs.google.com/file/d/0B7IVstmtIvlHLTdTbXdEVENoRzQ/edit) también están disponibles.
 
 -----
 
-### Class 6: Machine Learning
-* Part 2 of Visualization with Pandas and Matplotlib ([notebook](notebooks/05_pandas_visualization.ipynb))
-* Brief introduction to the Jupyter/IPython Notebook
-* "Human learning" exercise:
-    * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
+###Clase 6: Aprendizaje automático
+* Parte 2 de la visualización con pandas y matplotlib([notebook](notebooks/05_pandas_visualization.ipynb))
+*Breve introducción al cuaderno Jupyter/Ipython
+*Ejercicio de "aprendizaje humano":
+    * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) Organizado por el repositorio de aprendizaje automático de UCI
     * [Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
     * [Notebook](notebooks/06_human_learning_iris.ipynb)
-* Introduction to machine learning ([slides](slides/06_machine_learning.pdf))
+* Introducción al aprendizaje automático ([slides](slides/06_machine_learning.pdf))
 
-**Homework:**
-* **Optional:** Complete the bonus exercise listed in the [human learning notebook](notebooks/06_human_learning_iris.ipynb). It will take the place of any one homework you miss, past or future! This is due on Tuesday (9/8).
-* If you're not using Anaconda, install [requests](http://www.python-requests.org/en/latest/user/install/) and [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup) using `pip`. (Both of these packages are included with Anaconda.)
+**Tarea:**
+*** Opcional: ** Complete el ejercicio de bonificación en la lista de [human learning notebook](notebooks/06_human_learning_iris.ipynb). ¡Tomará el lugar de cualquier tarea que pierda, pasado o futuro!Esto se debe el martes (9/8).
+* Si no está usando Anaconda, instale [requests](http://www.python-requests.org/en/latest/user/install/)y[Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)usando`pip`. (Ambos paquetes están incluidos con Anaconda).
 
-**Machine Learning Resources:**
-* For a very quick summary of the key points about machine learning, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes) or read the [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb).
-* For a more in-depth introduction to machine learning, read section 2.1 (14 pages) of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
-* The [Learning Paradigms](http://work.caltech.edu/library/014.html) video (13 minutes) from [Caltech's Learning From Data course](http://work.caltech.edu/telecourse.html) provides a nice comparison of supervised versus unsupervised learning, as well as an introduction to "reinforcement learning".
-* [Real-World Active Learning](https://beta.oreilly.com/ideas/real-world-active-learning) is a readable and thorough introduction to "active learning", a variation of machine learning in which humans label only the most "important" observations.
-* For a preview of some of the machine learning content we will cover during the course, read Sebastian Raschka's [overview of the supervised learning process](https://github.com/rasbt/pattern_classification/blob/master/machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md).
-* [Data Science, Machine Learning, and Statistics: What is in a Name?](http://www.win-vector.com/blog/2013/04/data-science-machine-learning-and-statistics-what-is-in-a-name/) discusses the differences between these (and other) terms.
-* [The Emoji Translation Project](https://www.kickstarter.com/projects/fred/the-emoji-translation-project) is a really fun application of machine learning.
-* Look up the [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/), and then read about the [67 distinct segments](http://doc.arcgis.com/en/esri-demographics/data/tapestry-segmentation.htm) in detail.
+**Recursos de aprendizaje automático:**
+* Para un resumen muy rápido de los puntos clave sobre el aprendizaje automático, mire[What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutos) o leer el [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb).
+* Para una introducción más profunda al aprendizaje automático, lea la Sección 2.1 (14 páginas) del excelente libro de Hastie y Tibshirani, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (¡Es una descarga gratuita de PDF!)
+*La [Learning Paradigms](http://work.caltech.edu/library/014.html) Video (13 minutos) de [Caltech's Learning From Data course](http://work.caltech.edu/telecourse.html) Proporciona una buena comparación del aprendizaje supervisado versus no supervisado, así como una introducción al "aprendizaje de refuerzo".
+* [Real-World Active Learning](https://beta.oreilly.com/ideas/real-world-active-learning) es una introducción legible y exhaustiva al "aprendizaje activo", una variación del aprendizaje automático en la que los humanos etiquetan solo las observaciones más "importantes".
+* Para obtener una vista previa de parte del contenido de aprendizaje automático que cubriremos durante el curso, lea Sebastian Raschka's [overview of the supervised learning process](https://github.com/rasbt/pattern_classification/blob/master/machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md).
+* [Data Science, Machine Learning, and Statistics: What is in a Name?](http://www.win-vector.com/blog/2013/04/data-science-machine-learning-and-statistics-what-is-in-a-name/) Discute las diferencias entre estos (y otros) términos.
+* [The Emoji Translation Project](https://www.kickstarter.com/projects/fred/the-emoji-translation-project)es una aplicación realmente divertida del aprendizaje automático.
+* Busque el[characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/), y luego lee sobre el [67 distinct segments](http://doc.arcgis.com/en/esri-demographics/data/tapestry-segmentation.htm) en detalle.
 
-**IPython Notebook Resources:**
-* For a recap of the IPython Notebook introduction (and a preview of scikit-learn), watch [scikit-learn and the IPython Notebook](https://www.youtube.com/watch?v=IsXXlYVBt1M) (15 minutes) or read the [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/02_machine_learning_setup.ipynb).
-* If you would like to learn the IPython Notebook, the official [Notebook tutorials](https://github.com/jupyter/notebook/blob/master/docs/source/examples/Notebook/Examples%20and%20Tutorials%20Index.ipynb) are useful.
-* This [Reddit discussion](https://www.reddit.com/r/Python/comments/3be5z2/do_you_prefer_ipython_notebook_over_ipython/) compares the relative strengths of the IPython Notebook and Spyder.
+** Recursos de cuaderno de iPython:**
+* Para un resumen de la introducción del cuaderno de iPython (y una vista previa de Scikit-Learn), mire [scikit-learn and the IPython Notebook](https://www.youtube.com/watch?v=IsXXlYVBt1M) (15 minutos) o leer el[associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/02_machine_learning_setup.ipynb).
+*Si desea aprender el cuaderno de iPython, el oficial[Notebook tutorials](https://github.com/jupyter/notebook/blob/master/docs/source/examples/Notebook/Examples%20and%20Tutorials%20Index.ipynb) Son útiles.
+*Esta [Reddit discussion](https://www.reddit.com/r/Python/comments/3be5z2/do_you_prefer_ipython_notebook_over_ipython/) Compara las fortalezas relativas del cuaderno de Ipython y Spyder.
 
 -----
 
-### Class 7: Getting Data
-* Pandas homework with the IMDb data due ([solution](code/05_pandas_homework_imdb.py))
-* Optional "human learning" exercise with the iris data due ([solution](notebooks/06_human_learning_iris.ipynb))
+### Clase 7: Obtener datos
+* Tarea de pandas con los datos de IMDB adeudados ([solution](code/05_pandas_homework_imdb.py))
+* Ejercicio opcional de "aprendizaje humano" con los datos de iris adeudados ([solution](notebooks/06_human_learning_iris.ipynb))
 * APIs ([code](code/07_api.py))
     * [OMDb API](http://www.omdbapi.com/)
 * Web scraping ([code](code/07_web_scraping.py))
@@ -222,25 +222,25 @@ Tuesday | Thursday
     * [Example web page](data/example.html)
     * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
 
-**Homework:**
-* **Optional:** Complete the homework exercise listed in the [web scraping code](code/07_web_scraping.py). It will take the place of any one homework you miss, past or future! This is due on Tuesday (9/15).
-* **Optional:** If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line. (Note that some students in past courses have had problems with Anaconda after installing Seaborn.)
+**Tarea:**
+*** Opcional: ** Complete el ejercicio de tarea enumerado en el [web scraping code](code/07_web_scraping.py). ¡Tomará el lugar de cualquier tarea que pierda, pasado o futuro!Esto se debe el martes (15/09).
+* **Opcional: ** Si no estás usando Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) usando `pip`. Si está utilizando Anaconda, instale SeaBorn corriendo `conda install seaborn`en la línea de comando.(Tenga en cuenta que algunos estudiantes en cursos pasados ​​han tenido problemas con Anaconda después de instalar Seorn).
 
-**API Resources:**
-* This Python script to [query the U.S. Census API](https://github.com/laurakurup/census-api) was created by a former DAT student. It's a bit more complicated than the example we used in class, it's very well commented, and it may provide a useful framework for writing your own code to query APIs.
-* [Mashape](https://www.mashape.com/explore) and [Apigee](https://apigee.com/providers) allow you to explore tons of different APIs. Alternatively, a [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) is available for many popular APIs.
-* The [Data Science Toolkit](http://www.datasciencetoolkit.org/) is a collection of location-based and text-related APIs.
-* [API Integration in Python](https://realpython.com/blog/python/api-integration-in-python/) provides a very readable introduction to REST APIs.
-* Microsoft's [Face Detection API](https://www.projectoxford.ai/demo/face#detection), which powers [How-Old.net](http://how-old.net/), is a great example of how a machine learning API can be leveraged to produce a compelling web application.
+**Recursos API: **
+*Este guión de Python para [query the U.S. Census API](https://github.com/laurakurup/census-api) fue creado por un ex alumno de DA.Es un poco más complicado que el ejemplo que usamos en la clase, está muy bien comentado y puede proporcionar un marco útil para escribir su propio código para consultar las API.
+* [Mashape](https://www.mashape.com/explore) y [Apigee](https://apigee.com/providers)Permitirle explorar toneladas de diferentes API.Alternativamente, un [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) está disponible para muchas API populares.
+* the [Data Science Toolkit](http://www.datasciencetoolkit.org/) es una colección de API basadas en la ubicación y relacionadas con el texto.
+* [API Integration in Python](https://realpython.com/blog/python/api-integration-in-python/) Proporciona una introducción muy legible a las API REST.
+* Microsoft's [Face Detection API](https://www.projectoxford.ai/demo/face#detection), que poderes[How-Old.net](http://how-old.net/), es un gran ejemplo de cómo se puede aprovechar una API de aprendizaje automático para producir una aplicación web convincente.
 
-**Web Scraping Resources:**
-* The [Beautiful Soup documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) is incredibly thorough, but is hard to use as a reference guide. However, the section on [specifying a parser](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use) may be helpful if Beautiful Soup appears to be parsing a page incorrectly.
-* For more Beautiful Soup examples and tutorials, see [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), a former DAT student's well-commented notebook on [scraping Craigslist](https://github.com/Alexjmsherman/DataScience_GeneralAssembly/blob/master/Final_Project/1.%20Final_Project_Data%20Scraping.ipynb), this [notebook](http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html) from Stanford's Text As Data course, and this [notebook](https://github.com/cs109/2014/blob/master/lectures/2014_09_23-lecture/data_scraping_transcript.ipynb) and associated [video](http://cm.dce.harvard.edu/2015/01/14328/L07/screen_H264LargeTalkingHead-16x9.shtml) from Harvard's Data Science course.
-* For a much longer web scraping tutorial covering Beautiful Soup, lxml, XPath, and Selenium, watch [Web Scraping with Python](https://www.youtube.com/watch?v=p1iX0uxM1w8) (3 hours 23 minutes) from PyCon 2014. The [slides](https://docs.google.com/presentation/d/1uHM_esB13VuSf7O1ScGueisnrtu-6usGFD3fs4z5YCE/edit#slide=id.p) and [code](https://github.com/kjam/python-web-scraping-tutorial) are also available.
-* For more complex web scraping projects, [Scrapy](http://scrapy.org/) is a popular application framework that works with Python. It has excellent [documentation](http://doc.scrapy.org/en/1.0/index.html), and here's a [tutorial](https://github.com/rdempsey/ddl-data-wrangling) with detailed slides and code.
-* [robotstxt.org](http://www.robotstxt.org/robotstxt.html) has a concise explanation of how to write (and read) the `robots.txt` file.
-* [import.io](https://import.io/) and [Kimono](https://www.kimonolabs.com/) claim to allow you to scrape websites without writing any code.
-* [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) and [How Netflix Reverse Engineered Hollywood](http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/?single_page=true) are two fun examples of how web scraping has been used to build interesting datasets.
+**Recursos de raspado web:**
+* La[Beautiful Soup documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) es increíblemente minucioso, pero es difícil de usar como guía de referencia.Sin embargo, la sección en[specifying a parser](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use) Puede ser útil si la hermosa sopa parece estar analizando una página incorrectamente.
+* Para más hermosos ejemplos de sopa y tutoriales, ver [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), Un cuaderno de un ex alumno de DAT bien comentado en[scraping Craigslist](https://github.com/Alexjmsherman/DataScience_GeneralAssembly/blob/master/Final_Project/1.%20Final_Project_Data%20Scraping.ipynb), this [notebook](http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html) del texto de Stanford como curso de datos, y esto[notebook](https://github.com/cs109/2014/blob/master/lectures/2014_09_23-lecture/data_scraping_transcript.ipynb) y asociado [video](http://cm.dce.harvard.edu/2015/01/14328/L07/screen_H264LargeTalkingHead-16x9.shtml)del curso de ciencia de datos de Harvard.
+* Para un tutorial de raspado web mucho más largo que cubre la hermosa sopa, LXML, XPath y Selenium, reloj[Web Scraping with Python](https://www.youtube.com/watch?v=p1iX0uxM1w8) (3 horas 23 minutos) de Pycon 2014. La [slides](https://docs.google.com/presentation/d/1uHM_esB13VuSf7O1ScGueisnrtu-6usGFD3fs4z5YCE/edit#slide=id.p) y [code](https://github.com/kjam/python-web-scraping-tutorial) también están disponibles.
+* Para proyectos de raspado web más complejos, [Scrapy](http://scrapy.org/) es un marco de aplicaciones popular que funciona con Python.Tiene excelente [documentation](http://doc.scrapy.org/en/1.0/index.html), Y aquí hay un [tutorial](https://github.com/rdempsey/ddl-data-wrangling) con diapositivas y código detallados.
+* [robotstxt.org](http://www.robotstxt.org/robotstxt.html) tiene una explicación concisa de cómo escribir (y leer) el `robots.txt` file.
+* [import.io](https://import.io/) y [Kimono](https://www.kimonolabs.com/) afirmar que le permite raspar sitios web sin escribir ningún código.
+* [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) and [How Netflix Reverse Engineered Hollywood](http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/?single_page=true) son dos ejemplos divertidos de cómo se ha utilizado el raspado web para crear conjuntos de datos interesantes.
 
 -----
 
