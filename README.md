@@ -380,99 +380,99 @@ Tuesday | Thursday
 * **Opcional:** Para una introducción intuitiva al teorema de Bayes, lea estas publicaciones en [wealth and happiness](http://www.quora.com/What-is-an-intuitive-explanation-of-Bayes-Rule/answer/Michael-Hochster), [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/), o [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
 
 **Recursos ROC:**
-* Rahul Patwari tiene un gran videon [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutos).
+* Rahul Patwari tiene un gran video [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutos).
 * [An introduction to ROC analysis](http://people.inf.elte.hu/kiss/13dwhdm/roc.pdf) es un artículo muy legible sobre el tema.
 * Las curvas ROC se pueden usar en una amplia variedad de aplicaciones, como [comparing different feature sets](http://research.microsoft.com/pubs/205472/aisec10-leontjeva.pdf) para detectar usuarios fraudulentos de Skype, y[comparing different classifiers](http://www.cse.ust.hk/nevinZhangGroup/readings/yi/Bradley_PR97.pdf)en varios conjuntos de datos populares.
 
-**Cross-Validation Resources:**
-* For more on cross-validation, read section 5.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (11 pages) or watch the related videos: [K-fold and leave-one-out cross-validation](https://www.youtube.com/watch?v=nZAM5OXrktY) (14 minutes), [cross-validation the right and wrong ways](https://www.youtube.com/watch?v=S06JpVoNaA0) (10 minutes).
-* If you want to understand the different variations of cross-validation, this [paper](http://www.jcheminf.com/content/pdf/1758-2946-6-10.pdf) examines and compares them in detail.
-* To learn how to use [GridSearchCV and RandomizedSearchCV](http://scikit-learn.org/stable/modules/grid_search.html) for parameter tuning, watch [How to find the best model parameters in scikit-learn](https://www.youtube.com/watch?v=Gol_qOgRqfA) (28 minutes) or read the [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb).
+**Recursos de validación cruzada:**
+* Para obtener más información sobre la validación cruzada, lea la sección 5.1 de [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (11 páginas) o ver los videos relacionados: [K-fold and leave-one-out cross-validation](https://www.youtube.com/watch?v=nZAM5OXrktY) (14 minutos), [cross-validation the right and wrong ways](https://www.youtube.com/watch?v=S06JpVoNaA0) (10 minutos).
+* Si desea comprender las diferentes variaciones de validación cruzada, esto [paper](http://www.jcheminf.com/content/pdf/1758-2946-6-10.pdf) Los examina y los compara en detalle.
+* Para aprender a usar [GridSearchCV and RandomizedSearchCV](http://scikit-learn.org/stable/modules/grid_search.html) Para el ajuste de los parámetros, mira [How to find the best model parameters in scikit-learn](https://www.youtube.com/watch?v=Gol_qOgRqfA) (28 minutos) o lea el [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb).
 
-**Other Resources:**
-* scikit-learn has extensive documentation on [model evaluation](http://scikit-learn.org/stable/modules/model_evaluation.html).
-* [Counterfactual evaluation of machine learning models](https://www.youtube.com/watch?v=QWCSxAKR-h0) (45 minutes) is an excellent talk about the sophisticated way in which Stripe evaluates its fraud detection model. (These are the associated [slides](http://www.slideshare.net/MichaelManapat/counterfactual-evaluation-of-machine-learning-models).)
-* [Visualizing Machine Learning Thresholds to Make Better Business Decisions](http://blog.insightdatalabs.com/visualizing-classifier-thresholds/) demonstrates how visualizing precision, recall, and "queue rate" at different thresholds can help you to maximize the business value of your classifier.
+**Otros recursos:**
+* Scikit-Learn tiene una amplia documentación en [model evaluation](http://scikit-learn.org/stable/modules/model_evaluation.html).
+* [Evaluación contrafactual de modelos de aprendizaje automático](https://www.youtube.com/watch?v=QWCSxAKR-h0) (45 minutos) es una excelente charla sobre la forma sofisticada en que Stripe evalúa su modelo de detección de fraude.(Estos son los asociados [slides](http://www.slideshare.net/MichaelManapat/counterfactual-evaluation-of-machine-learning-models).)
+* [Visualizar los umbrales de aprendizaje automático para tomar mejores decisiones comerciales](http://blog.insightdatalabs.com/visualizing-classifier-thresholds/) dEmonstruye cómo la visualización de la precisión, el retiro y la "tasa de cola" en diferentes umbrales pueden ayudarlo a maximizar el valor comercial de su clasificador.
 
 -----
 
-### Class 14: Naive Bayes and Text Data
-* Conditional probability and Bayes' theorem
-    * [Slides](slides/14_bayes_theorem.pdf) (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
-    * Applying Bayes' theorem to iris classification ([notebook](notebooks/14_bayes_theorem_iris.ipynb))
+###Clase 14: Naive Bayes and Text Data
+*Probabilidad condicional y teorema de Bayes
+    * [Slides](slides/14_bayes_theorem.pdf) (adaptado de [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
+    * Aplicar el teorema de Bayes a la clasificación de Iris([notebook](notebooks/14_bayes_theorem_iris.ipynb))
 * Naive Bayes classification
     * [Slides](slides/14_naive_bayes.pdf)
     * Spam filtering example ([notebook](notebooks/14_naive_bayes_spam.ipynb))
-* Applying Naive Bayes to text data in scikit-learn ([notebook](notebooks/14_text_data_sklearn.ipynb))
+* AplicandoNaive Bayes Para enviar datos de texto en Scikit-Learn ([notebook](notebooks/14_text_data_sklearn.ipynb))
     * [CountVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) documentation
     * SMS messages: [data](data/sms.tsv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
 
-**Homework:**
-* Complete another [homework assignment](homework/14_yelp_review_text.md) with the [Yelp data](data/yelp.csv). This is due on Tuesday (10/6).
-* Confirm that you have [TextBlob](https://textblob.readthedocs.org/) installed by running `import textblob` from within your preferred Python environment. If it's not installed, run `pip install textblob` at the command line (not from within Python).
+**Tarea:**
+* Completar otro [homework assignment](homework/14_yelp_review_text.md) con el [Yelp data](data/yelp.csv). Esto se debe el martes (10/6).
+* Confirma que tienes [TextBlob](https://textblob.readthedocs.org/) instalado ejecutando`import textblob` desde dentro de su entorno Python preferido.Si no está instalado, ejecute`pip install textblob` en la línea de comando (no desde dentro de Python).
 
-**Resources:**
-* Sebastian Raschka's article on [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) covers the conceptual material from today's class in much more detail.
-* For more on conditional probability, read these [slides](https://docs.google.com/presentation/d/1psUIyig6OxHQngGEHr3TMkCvhdLInnKnclQoNUr4G4U/edit#slide=id.gfc69f484_00), or read section 2.2 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php?stat_book=os) (15 pages).
-* For an intuitive explanation of Naive Bayes classification, read this post on [airport security](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt).
-* For more details on Naive Bayes classification, Wikipedia has two excellent articles ([Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) and [Naive Bayes spam filtering](http://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)), and Cross Validated has a good [Q&A](http://stats.stackexchange.com/questions/21822/understanding-naive-bayes).
-* When applying Naive Bayes classification to a dataset with continuous features, it is better to use [GaussianNB](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html) rather than [MultinomialNB](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html). This [notebook](notebooks/14_types_of_naive_bayes.ipynb) compares their performances on such a dataset. Wikipedia has a short [description](https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes) of Gaussian Naive Bayes, as well as an excellent [example](https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Sex_classification) of its usage.
-* These [slides](http://www.umiacs.umd.edu/~jbg/teaching/DATA_DIGGING/lecture_05.pdf) from the University of Maryland provide more mathematical details on both logistic regression and Naive Bayes, and also explain how Naive Bayes is actually a "special case" of logistic regression.
-* Andrew Ng has a [paper](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf) comparing the performance of logistic regression and Naive Bayes across a variety of datasets.
-* If you enjoyed Paul Graham's article, you can read [his follow-up article](http://www.paulgraham.com/better.html) on how he improved his spam filter and this [related paper](http://www.merl.com/publications/docs/TR2004-091.pdf) about state-of-the-art spam filtering in 2004.
-* Yelp has found that Naive Bayes is more effective than Mechanical Turks at [categorizing businesses](http://engineeringblog.yelp.com/2011/02/towards-building-a-high-quality-workforce-with-mechanical-turk.html).
-
------
-
-### Class 15: Natural Language Processing
-* Yelp review text homework due ([solution](notebooks/14_yelp_review_text_homework.ipynb))
-* Natural language processing ([notebook](notebooks/15_natural_language_processing.ipynb))
-* Introduction to our [Kaggle competition](https://inclass.kaggle.com/c/dat8-stack-overflow)
-    * Create a Kaggle account, join the competition using the invitation link, download the sample submission, and then submit the sample submission (which will require SMS account verification).
-
-**Homework:**
-* Your draft paper is due on Thursday (10/8)! Please submit a link to your project repository (with paper, code, data, and visualizations) before class.
-* Watch [Kaggle: How it Works](https://www.youtube.com/watch?v=PoD84TVdD-4) (4 minutes) for a brief overview of the Kaggle platform.
-* Download the competition files, move them to the `DAT8/data` directory, and make sure you can open the CSV files using Pandas. If you have any problems opening the files, you probably need to turn off real-time virus scanning (especially Microsoft Security Essentials).
-* **Optional:** Come up with some theories about which features might be relevant to predicting the response, and then explore the data to see if those theories appear to be true.
-* **Optional:** Watch my [project presentation video](https://www.youtube.com/watch?v=HGr1yQV3Um0) (16 minutes) for a tour of the end-to-end machine learning process for a Kaggle competition, including feature engineering. (Or, just read through the [slides](https://speakerdeck.com/justmarkham/allstate-purchase-prediction-challenge-on-kaggle).)
-
-**NLP Resources:**
-* If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
-* This slide deck defines many of the [key NLP terms](https://github.com/ga-students/DAT_SF_9/blob/master/16_Text_Mining/DAT9_lec16_Text_Mining.pdf).
-* [Natural Language Processing with Python](http://www.nltk.org/book/) is the most popular book for going in-depth with the [Natural Language Toolkit](http://www.nltk.org/) (NLTK).
-* [A Smattering of NLP in Python](https://github.com/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb) provides a nice overview of NLTK, as does this [notebook from DAT5](https://github.com/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb).
-* [spaCy](http://spacy.io/) is a newer Python library for text processing that is focused on performance (unlike NLTK).
-* If you want to get serious about NLP, [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) is a suite of tools (written in Java) that is highly regarded.
-* When working with a large text corpus in scikit-learn, [HashingVectorizer](http://scikit-learn.org/stable/modules/feature_extraction.html#vectorizing-a-large-text-corpus-with-the-hashing-trick) is a useful alternative to CountVectorizer.
-* [Automatically Categorizing Yelp Businesses](http://engineeringblog.yelp.com/2015/09/automatically-categorizing-yelp-businesses.html) discusses how Yelp uses NLP and scikit-learn to solve the problem of uncategorized businesses.
-* [Modern Methods for Sentiment Analysis](http://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis) shows how "word vectors" can be used for more accurate sentiment analysis.
-* [Identifying Humorous Cartoon Captions](http://www.cs.huji.ac.il/~dshahaf/pHumor.pdf) is a readable paper about identifying funny captions submitted to the New Yorker Caption Contest.
-* [DC Natural Language Processing](http://www.meetup.com/DC-NLP/) is an active Meetup group in our local area.
+**Recursos:**
+* Artículo de Sebastian Rakka en [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) Cubre el material conceptual de la clase de hoy con mucho más detalle.
+* Para obtener más información sobre probabilidad condicional, lea estos [slides](https://docs.google.com/presentation/d/1psUIyig6OxHQngGEHr3TMkCvhdLInnKnclQoNUr4G4U/edit#slide=id.gfc69f484_00), o leer la sección 2.2 del[OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php?stat_book=os) (15 páginas).
+*Para una explicación intuitiva de la clasificación de Naive Bayes, lea esta publicación en [airport security](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt).
+* Para más detalles sobre la clasificación de Naive Bayes, Wikipedia tiene dos artículos excelentes([Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) y [Naive Bayes spam filtering](http://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)),Y Cross Valided tiene un buen[Q&A](http://stats.stackexchange.com/questions/21822/understanding-naive-bayes).
+* Al aplicar la clasificación ingenua de Bayes a un conjunto de datos con características continuas, es mejor usarlo [GaussianNB](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html) en vez de[MultinomialNB](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html). Esta [notebook](notebooks/14_types_of_naive_bayes.ipynb) Compara sus actuaciones en dicho conjunto de datos.Wikipedia tiene un corto[description](https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes)de Bayes ingenuos gaussianos, así como un excelente [example](https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Sex_classification) de su uso.
+*Estas[slides](http://www.umiacs.umd.edu/~jbg/teaching/DATA_DIGGING/lecture_05.pdf) De la Universidad de Maryland, proporcione más detalles matemáticos sobre la regresión logística y los bayes ingenuos, y también explique cómo Naive Bayes es en realidad un "caso especial" de regresión logística.
+* Andrew Ng tiene un [paper](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf) Comparando el rendimiento de la regresión logística y los bayes ingenuos en una variedad de conjuntos de datos.
+* Si disfrutas el artículo de Paul Graham, puedes leer[his follow-up article](http://www.paulgraham.com/better.html) sobre cómo mejoró su filtro de spam y esto [related paper](http://www.merl.com/publications/docs/TR2004-091.pdf) sobre el filtrado de spam de última generación en 2004.
+* YELP ha descubierto que Naive Bayes es más efectivo que los turcos mecánicos en [categorizing businesses](http://engineeringblog.yelp.com/2011/02/towards-building-a-high-quality-workforce-with-mechanical-turk.html).
 
 -----
 
-### Class 16: Kaggle Competition
-* Overview of how Kaggle works ([slides](slides/16_kaggle.pdf))
-* Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat8-stack-overflow)
+### Clase 15: Procesamiento del lenguaje natural
+* Tarea de texto de revisión de Yelp debido ([solution](notebooks/14_yelp_review_text_homework.ipynb))
+* Procesamiento natural del lenguaje ([notebook](notebooks/15_natural_language_processing.ipynb))
+* Introducción a nuestro [Kaggle competition](https://inclass.kaggle.com/c/dat8-stack-overflow)
+    *Cree una cuenta de Kaggle, únase a la competencia utilizando el enlace de invitación, descargue el envío de la muestra y luego envíe el envío de muestra (que requerirá la verificación de la cuenta de SMS).
+
+**Tarea:**
+* ¡Su documento de borrador debe vencer el jueves (10/8)!Envíe un enlace al repositorio de su proyecto (con papel, código, datos y visualizaciones) antes de la clase.
+*Mirar[Kaggle: How it Works](https://www.youtube.com/watch?v=PoD84TVdD-4) (4 minutos) para una breve descripción de la plataforma Kaggle.
+* Descargue los archivos de competencia, muévalos al `DAT8/data` dIrectory, y asegúrese de que pueda abrir los archivos CSV con PANDAS.Si tiene algún problema para abrir los archivos, probablemente necesite desactivar el escaneo de virus en tiempo real (especialmente Microsoft Security Essentials).
+* **Opcional:** Elige algunas teorías sobre qué características pueden ser relevantes para predecir la respuesta, y luego explorar los datos para ver si esas teorías parecen ser ciertas.
+* **Opcional:** Mira My [project presentation video](https://www.youtube.com/watch?v=HGr1yQV3Um0) (16 minutos) para un recorrido por el proceso de aprendizaje automático de extremo a extremo para una competencia de Kaggle, incluida la ingeniería de características.(O, solo lea el [slides](https://speakerdeck.com/justmarkham/allstate-purchase-prediction-challenge-on-kaggle).)
+
+**Recursos de PNL:**
+* Si quieres aprender mucho más PNL, mira el excelente [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (que ya no se ofreced).
+* Este mazo de diapositivas define muchos de los [key NLP terms](https://github.com/ga-students/DAT_SF_9/blob/master/16_Text_Mining/DAT9_lec16_Text_Mining.pdf).
+* [Natural Language Processing with Python](http://www.nltk.org/book/) es el libro más popular para ir profundamente con el[Natural Language Toolkit](http://www.nltk.org/) (NLTK).
+* [A Smattering of NLP in Python](https://github.com/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb) proporciona una buena descripción de NLTK, al igual que esto [notebook from DAT5](https://github.com/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb).
+* [spaCy](http://spacy.io/) es una biblioteca de Python más nueva para el procesamiento de texto que se centra en el rendimiento (a diferencia de NLTK).
+* Si quieres tomarte en serio sobre NLP, [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) es un conjunto de herramientas (escritas en Java) que es muy apreciada.
+*Cuando trabaja con un cuerpo de texto grande en Scikit-Learn, [HashingVectorizer](http://scikit-learn.org/stable/modules/feature_extraction.html#vectorizing-a-large-text-corpus-with-the-hashing-trick)es una alternativa útil a CountVectorizer.
+* [Automatically Categorizing Yelp Businesses](http://engineeringblog.yelp.com/2015/09/automatically-categorizing-yelp-businesses.html) Discute cómo Yelp usa NLP y Scikit-Learn para resolver el problema de las empresas no categorizadas.
+* [Modern Methods for Sentiment Analysis](http://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis) Muestra cómo se pueden usar "vectores de palabras" para un análisis de sentimientos más preciso.
+* [Identifying Humorous Cartoon Captions](http://www.cs.huji.ac.il/~dshahaf/pHumor.pdf) iS un artículo legible sobre la identificación de subtítulos divertidos presentados al concurso de subtítulos de New Yorker.
+* [DC Natural Language Processing](http://www.meetup.com/DC-NLP/) es un grupo de reunión activo en nuestra área local.
+
+-----
+
+### Clase 16: Competencia de Kaggle
+* Descripción general de cómo funciona Kaggle ([slides](slides/16_kaggle.pdf))
+* Competencia en clase Kaggle: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat8-stack-overflow)
     * [Complete code file](code/16_kaggle.py)
     * [Minimal code file](code/16_kaggle_minimal.py): excludes all exploratory code
     * [Explanations of log loss](http://www.quora.com/What-is-an-intuitive-explanation-for-the-log-loss-function)
 
 **Homework:**
-* You will be assigned to review the project drafts of two of your peers. You have until Tuesday 10/20 to provide them with feedback, according to the [peer review guidelines](project/peer_review.md).
-* Read [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) for a brief overview of decision trees.
-* Download and install [Graphviz](http://www.graphviz.org/), which will allow you to visualize decision trees in scikit-learn.
-    * Windows users should also add Graphviz to your path: Go to Control Panel, System, Advanced System Settings, Environment Variables. Under system variables, edit "Path" to include the path to the "bin" folder, such as: `C:\Program Files (x86)\Graphviz2.38\bin`
-* **Optional:** Keep working on our Kaggle competition! You can make up to 5 submissions per day, and the competition doesn't close until 6:30pm ET on Tuesday 10/27 (class 21).
+* Se le asignará para revisar los borradores del proyecto de dos de sus pares.Tiene hasta el martes 10/20 para proporcionarles comentarios, según el[peer review guidelines](project/peer_review.md).
+* Leer [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) para una breve descripción de los árboles de decisión.
+* Descargar e instalar[Graphviz](http://www.graphviz.org/), que le permitirá visualizar los árboles de decisión en Scikit-Learn.
+    * Los usuarios de Windows también deben agregar GraphViz a su ruta: vaya al panel de control, el sistema, la configuración avanzada del sistema, las variables de entorno.En Variables del sistema, edite "ruta" para incluir la ruta a la carpeta "bin", como: `C:\Program Files (x86)\Graphviz2.38\bin`
+* **Opcional:** ¡Sigue trabajando en nuestra competencia de Kaggle!Puede formar hasta 5 presentaciones por día, y la competencia no se cierre hasta las 6:30 p.m. ET del martes 27/11 (Clase 21).
 
-**Resources:**
-* [Specialist Knowledge Is Useless and Unhelpful](http://www.slate.com/articles/health_and_science/new_scientist/2012/12/kaggle_president_jeremy_howard_amateurs_beat_specialists_in_data_prediction.html) is a brief interview with Jeremy Howard (past president of Kaggle) in which he argues that data science skills are much more important than domain expertise for creating effective predictive models.
-* [Getting in Shape for the Sport of Data Science](https://www.youtube.com/watch?v=kwt6XEh7U3g) (74 minutes), also by Jeremy Howard, contains a lot of tips for competitive machine learning.
-* [Learning from the best](http://blog.kaggle.com/2014/08/01/learning-from-the-best/) is an excellent blog post covering top tips from Kaggle Masters on how to do well on Kaggle.
-* [Feature Engineering Without Domain Expertise](https://www.youtube.com/watch?v=bL4b1sGnILU) (17 minutes), a talk by Kaggle Master Nick Kridler, provides some simple advice about how to iterate quickly and where to spend your time during a Kaggle competition.
-* These examples may help you to better understand the process of feature engineering: predicting the number of [passengers at a train station](https://medium.com/@chris_bour/french-largest-data-science-challenge-ever-organized-shows-the-unreasonable-effectiveness-of-open-8399705a20ef), identifying [fraudulent users of an online store](https://docs.google.com/presentation/d/1UdI5NY-mlHyseiRVbpTLyvbrHxY8RciHp5Vc-ZLrwmU/edit#slide=id.p), identifying [bots in an online auction](https://www.kaggle.com/c/facebook-recruiting-iv-human-or-bot/forums/t/14628/share-your-secret-sauce), predicting who will [subscribe to the next season of an orchestra](http://blog.kaggle.com/2015/01/05/kaggle-inclass-stanfords-getting-a-handel-on-data-science-winners-report/), and evaluating the [quality of e-commerce search engine results](http://blog.kaggle.com/2015/07/22/crowdflower-winners-interview-3rd-place-team-quartet/).
-* [Our perfect submission](https://www.kaggle.com/c/restaurant-revenue-prediction/forums/t/13950/our-perfect-submission) is a fun read about how great performance on the [public leaderboard](https://www.kaggle.com/c/restaurant-revenue-prediction/leaderboard/public) does not guarantee that a model will generalize to new data.
+**Recursos:**
+* [Specialist Knowledge Is Useless and Unhelpful](http://www.slate.com/articles/health_and_science/new_scientist/2012/12/kaggle_president_jeremy_howard_amateurs_beat_specialists_in_data_prediction.html) es una breve entrevista con Jeremy Howard (ex presidente de Kaggle) en la que argumenta que las habilidades de ciencia de datos son mucho más importantes que la experiencia de dominio para crear modelos predictivos efectivos.
+* [Getting in Shape for the Sport of Data Science](https://www.youtube.com/watch?v=kwt6XEh7U3g) (74 minutos), también por Jeremy Howard, contiene muchos consejos para el aprendizaje automático competitivo.
+* [Learning from the best](http://blog.kaggle.com/2014/08/01/learning-from-the-best/) es una excelente publicación de blog que cubre los mejores consejos de Kaggle Masters sobre cómo hacerlo bien en Kaggle.
+* [Feature Engineering Without Domain Expertise](https://www.youtube.com/watch?v=bL4b1sGnILU) (17 minutos), una charla del maestro de Kaggle Nick Kridler, proporciona algunos consejos simples sobre cómo iterar rápidamente y dónde pasar su tiempo durante una competencia de Kaggle.
+*Estos ejemplos pueden ayudarlo a comprender mejor el proceso de ingeniería de características: predecir el número de [passengers at a train station](https://medium.com/@chris_bour/french-largest-data-science-challenge-ever-organized-shows-the-unreasonable-effectiveness-of-open-8399705a20ef), identifying [fraudulent users of an online store](https://docs.google.com/presentation/d/1UdI5NY-mlHyseiRVbpTLyvbrHxY8RciHp5Vc-ZLrwmU/edit#slide=id.p), identifying [bots in an online auction](https://www.kaggle.com/c/facebook-recruiting-iv-human-or-bot/forums/t/14628/share-your-secret-sauce), predicting who will [subscribe to the next season of an orchestra](http://blog.kaggle.com/2015/01/05/kaggle-inclass-stanfords-getting-a-handel-on-data-science-winners-report/), y evaluar el [quality of e-commerce search engine results](http://blog.kaggle.com/2015/07/22/crowdflower-winners-interview-3rd-place-team-quartet/).
+* [Our perfect submission](https://www.kaggle.com/c/restaurant-revenue-prediction/forums/t/13950/our-perfect-submission) es una lectura divertida sobre cuán gran rendimiento en el [public leaderboard](https://www.kaggle.com/c/restaurant-revenue-prediction/leaderboard/public) no garantiza que un modelo se generalice a nuevos datos.
 
 -----
 
