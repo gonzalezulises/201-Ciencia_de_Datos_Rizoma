@@ -255,7 +255,7 @@ Tuesday | Thursday
 * Lea la [Introducción a la reproducibilidad] de Kevin (http://www.dataschool.io/reproducibilidad-is-not-just-for-researchers/), lea la guía de Jeff Leek para crear un análisis reproducible] (https: // github.com/jtleek/dataHaring), y vea este video relacionado [Video de Informe de Colbert] (http://thecolberstreport.cc.com/videos/dcyvro/austerity-s-sepersheet-error) (8 minutos).
 * Trabaje en su proyecto ... ¡su primera presentación del proyecto está en menos de dos semanas!
 
-** RECURSOS KNN: **
+**RECURSOS KNN**
 * Para un resumen de los puntos clave sobre Knn y Scikit-Learn, mira [Getting started in scikit-learn with the famous iris dataset](https://www.youtube.com/watch?v=hd1W4CyPX58) (15 minutos) y [Training a machine learning model with scikit-learn](https://www.youtube.com/watch?v=RlQuVL6-qe8) (20 minutes).
 * KNN soporta [distance metrics](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html) aparte de la distancia euclidiana, como [Mahalanobis distance](http://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance), cual [takes the scale of the data into account](http://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html).
 * [A Detailed Introduction to KNN](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/) es un poco denso, pero proporciona una introducción más exhaustiva a KNN y sus aplicaciones.
@@ -287,103 +287,102 @@ Tuesday | Thursday
 * El aprendizaje de Caltech de los datos incluye un video fantástico en [visualizing bias and variance](http://work.caltech.edu/library/081.html) (15 minutos).
 * [Random Test/Train Split is Not Always Enough](http://www.win-vector.com/blog/2015/01/random-testtrain-split-is-not-always-enough/)Explica por qué la división aleatoria de trenes/pruebas puede no ser un procedimiento de evaluación de modelo adecuado si sus datos tienen un elemento de tiempo significativo.
 
-**Reproducibility Resources:**
-* [What We've Learned About Sharing Our Data Analysis](https://source.opennews.org/en-US/articles/what-weve-learned-about-sharing-our-data-analysis/) includes tips from BuzzFeed News about how to publish a reproducible analysis.
-* [Software development skills for data scientists](http://treycausey.com/software_dev_skills.html) discusses the importance of writing functions and proper code comments (among other skills), which are highly useful for creating a reproducible analysis.
-* [Data science done well looks easy - and that is a big problem for data scientists](http://simplystatistics.org/2015/03/17/data-science-done-well-looks-easy-and-that-is-a-big-problem-for-data-scientists/) explains how a reproducible analysis demonstrates all of the work that goes into proper data science.
+**Recursos de reproducibilidad**
+* [What We've Learned About Sharing Our Data Analysis](https://source.opennews.org/en-US/articles/what-weve-learned-about-sharing-our-data-analysis/) Incluye consejos de BuzzFeed News sobre cómo publicar un análisis reproducible.
+* [Software development skills for data scientists](http://treycausey.com/software_dev_skills.html) Discute la importancia de escribir funciones y comentarios de código adecuados (entre otras habilidades), que son muy útiles para crear un análisis reproducible.
+* [Data science done well looks easy - and that is a big problem for data scientists](http://simplystatistics.org/2015/03/17/data-science-done-well-looks-easy-and-that-is-a-big-problem-for-data-scientists/) Explica cómo un análisis reproducible demuestra todo el trabajo que entra en la ciencia de datos adecuada.
 
 -----
 
-### Class 10: Linear Regression
-* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
-* Linear regression ([notebook](notebooks/10_linear_regression.ipynb))
+### Clase 10: regresión lineal
+* Ejercicio de aprendizaje automático([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
+* Regresión lineal ([notebook](notebooks/10_linear_regression.ipynb))
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
     * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
-* Feature engineering example: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
+* Ejemplo de ingeniería de características: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
 
-**Homework:**
-* Your first project presentation is on Tuesday (9/22)! Please submit a link to your project repository (with slides, code, data, and visualizations) by 6pm on Tuesday.
-* Complete the [homework assignment](homework/10_yelp_votes.md) with the [Yelp data](data/yelp.csv). This is due on Thursday (9/24).
+**Tarea:**
+* ¡Su primera presentación del proyecto es el martes (9/22)!Envíe un enlace al repositorio de su proyecto (con diapositivas, código, datos y visualizaciones) a las 6pm del martes.
+* Completar la [homework assignment](homework/10_yelp_votes.md) con el [Yelp data](data/yelp.csv). Esto se debe el jueves (9/24).
 
-**Linear Regression Resources:**
-* To go much more in-depth on linear regression, read Chapter 3 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) or read my [quick reference guide](http://www.dataschool.io/applying-and-interpreting-linear-regression/) to the key points in that chapter.
-* This [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is more detailed and mathematically thorough, and includes lots of good advice.
-* This is a relatively quick post on the [assumptions of linear regression](http://pareonline.net/getvn.asp?n=2&v=8).
-* Setosa has an [interactive visualization](http://setosa.io/ev/ordinary-least-squares-regression/) of linear regression.
-* For a brief introduction to confidence intervals, hypothesis testing, p-values, and R-squared, as well as a comparison between scikit-learn code and [Statsmodels](http://statsmodels.sourceforge.net/) code, read my [DAT7 lesson on linear regression](https://github.com/justmarkham/DAT7/blob/master/notebooks/10_linear_regression.ipynb).
-* Here is a useful explanation of [confidence intervals](http://www.quora.com/What-is-a-confidence-interval-in-laymans-terms/answer/Michael-Hochster) from Quora.
-* [Hypothesis Testing: The Basics](http://20bits.com/article/hypothesis-testing-the-basics) provides a nice overview of the topic, and John Rauser's talk on [Statistics Without the Agonizing Pain](https://www.youtube.com/watch?v=5Dnw46eC-0o) (12 minutes) gives a great explanation of how the null hypothesis is rejected.
-* Earlier this year, a major scientific journal banned the use of p-values:
-    * Scientific American has a nice [summary](http://www.scientificamerican.com/article/scientists-perturbed-by-loss-of-stat-tools-to-sift-research-fudge-from-fact/) of the ban.
-    * This [response](http://www.nature.com/news/statistics-p-values-are-just-the-tip-of-the-iceberg-1.17412) to the ban in Nature argues that "decisions that are made earlier in data analysis have a much greater impact on results".
-    * Andrew Gelman has a readable [paper](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf) in which he argues that "it's easy to find a p < .05 comparison even if nothing is going on, if you look hard enough".
-    * [Science Isn't Broken](http://fivethirtyeight.com/features/science-isnt-broken/) includes a neat tool that allows you to "p-hack" your way to "statistically significant" results.
-* [Accurately Measuring Model Prediction Error](http://scott.fortmann-roe.com/docs/MeasuringError.html) compares adjusted R-squared, AIC and BIC, train/test split, and cross-validation.
-
-**Other Resources:**
-* Section 3.3.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (4 pages) has a great explanation of dummy encoding for categorical features.
-* Kaggle has some nice [visualizations of the bikeshare data](https://www.kaggle.com/c/bike-sharing-demand/scripts?outputType=Visualization) we used today.
-
------
-
-### Class 11: First Project Presentation
-* Project presentations!
-
-**Homework:**
-* Watch Rahul Patwari's videos on [probability](https://www.youtube.com/watch?v=o4QmoNfW3bI) (5 minutes) and [odds](https://www.youtube.com/watch?v=GxbXQjX7fC0) (8 minutes) if you're not comfortable with either of those terms.
-* Read these excellent articles from BetterExplained: [An Intuitive Guide To Exponential Functions & e](http://betterexplained.com/articles/an-intuitive-guide-to-exponential-functions-e/) and [Demystifying the Natural Logarithm (ln)](http://betterexplained.com/articles/demystifying-the-natural-logarithm-ln/). Then, review this [brief summary](notebooks/12_e_log_examples.ipynb) of exponential functions and logarithms.
+**Recursos de regresión lineal**
+* Para ir mucho más en profundidad sobre la regresión lineal, lea el Capítulo 3 de [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/).Alternativamente, mira el[related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) o leer mi [quick reference guide](http://www.dataschool.io/applying-and-interpreting-linear-regression/) a los puntos clave en ese capítulo.
+* Esta[introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) es más detallado y matemáticamente minucioso, e incluye muchos buenos consejos.
+* Esta es una publicación relativamente rápida en el [assumptions of linear regression](http://pareonline.net/getvn.asp?n=2&v=8).
+*Setosa tiene un [interactive visualization](http://setosa.io/ev/ordinary-least-squares-regression/) of regresión lineal.
+* Para una breve introducción a los intervalos de confianza, las pruebas de hipótesis, los valores P y el R-cuadrado, así como una comparación entre el código de Scikit-Learn y [Statsmodels](http://statsmodels.sourceforge.net/) code, leer mi [DAT7 lesson on linear regression](https://github.com/justmarkham/DAT7/blob/master/notebooks/10_linear_regression.ipynb).
+* Aquí hay una explicación útil de [confidence intervals](http://www.quora.com/What-is-a-confidence-interval-in-laymans-terms/answer/Michael-Hochster) de Quora.
+* [Hypothesis Testing: The Basics](http://20bits.com/article/hypothesis-testing-the-basics) proporciona una buena visión general del tema, y ​​la charla de John Rauser en [Statistics Without the Agonizing Pain](https://www.youtube.com/watch?v=5Dnw46eC-0o) (12 minutos) da una gran explicación de cómo se rechaza la hipótesis nula.
+* A principios de este año, una importante revista científica prohibió el uso de valores P:
+* Scientific American tiene un buen [summary](http://www.scientificamerican.com/article/scientists-perturbed-by-loss-of-stat-tools-to-sift-research-fudge-from-fact/) of the ban.
+    * Esta [response](http://www.nature.com/news/statistics-p-values-are-just-the-tip-of-the-iceberg-1.17412) A la prohibición de la naturaleza argumenta que "las decisiones que se toman anteriormente en el análisis de datos tienen un impacto mucho mayor en los resultados".
+    * Andrew Gelman tiene un legible [paper](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf)en el que argumenta que "es fácil encontrar una comparación P <.05 incluso si no está sucediendo nada, si miras lo suficiente".
+    * [Science Isn't Broken](http://fivethirtyeight.com/features/science-isnt-broken/) iIncluye una herramienta ordenada que le permite "P-Hack" su camino hacia los resultados "estadísticamente significativos".
+* [Accurately Measuring Model Prediction Error](http://scott.fortmann-roe.com/docs/MeasuringError.html) Compara R-cuadrado ajustado, AIC y BIC, división de tren/prueba y validación cruzada.
+**Otros recursos:**
+* Sección 3.3.1 de [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (4 pages)Tiene una gran explicación de la codificación ficticia para características categóricas.
+* Kaggle tiene algo agradable [visualizations of the bikeshare data](https://www.kaggle.com/c/bike-sharing-demand/scripts?outputType=Visualization) Usamos hoy.
 
 -----
 
-### Class 12: Logistic Regression
-* Yelp votes homework due ([solution](notebooks/10_yelp_votes_homework.ipynb))
-* Logistic regression ([notebook](notebooks/12_logistic_regression.ipynb))
-    * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
-* Exercise with Titanic data ([notebook](notebooks/12_titanic_confusion.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
-* Confusion matrix ([slides](slides/12_confusion_matrix.pdf), [notebook](notebooks/12_titanic_confusion.ipynb))
+### Clase 11: Presentación del primer proyecto
+* ¡Presentaciones del proyecto!
 
-**Homework:**
-* If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
-* Video/reading assignment on [ROC curves and AUC](homework/13_roc_auc.md)
-* Video/reading assignment on [cross-validation](homework/13_cross_validation.md)
-
-**Logistic Regression Resources:**
-* To go deeper into logistic regression, read the first three sections of Chapter 4 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/), or watch the [first three videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) (30 minutes) from that chapter.
-* For a math-ier explanation of logistic regression, watch the first seven videos (71 minutes) from week 3 of Andrew Ng's [machine learning course](https://www.coursera.org/learn/machine-learning/home/info), or read the [related lecture notes](http://www.holehouse.org/mlclass/06_Logistic_Regression.html) compiled by a student.
-* For more on interpreting logistic regression coefficients, read this excellent [guide](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm) by UCLA's IDRE and these [lecture notes](http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf) from the University of New Mexico.
-* The scikit-learn documentation has a nice [explanation](http://scikit-learn.org/stable/modules/calibration.html) of what it means for a predicted probability to be calibrated.
-* [Supervised learning superstitions cheat sheet](http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html) is a very nice comparison of four classifiers we cover in the course (logistic regression, decision trees, KNN, Naive Bayes) and one classifier we do not cover (Support Vector Machines).
-
-**Confusion Matrix Resources:**
-* My [simple guide to confusion matrix terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) may be useful to you as a reference.
-* This blog post about [Amazon Machine Learning](https://aws.amazon.com/blogs/aws/amazon-machine-learning-make-data-driven-decisions-at-scale/) contains a neat [graphic](https://media.amazonwebservices.com/blog/2015/ml_adjust_model_1.png) showing how classification threshold affects different evaluation metrics.
-* This notebook (from another DAT course) explains [how to calculate "expected value"](https://github.com/podopie/DAT18NYC/blob/master/classes/13-expected_value_cost_benefit_analysis.ipynb) from a confusion matrix by treating it as a cost-benefit matrix.
+**Tarea:**
+* Mira los videos de Rahul Patwari en [Probabilidad] (https://www.youtube.com/watch?v=o4qmonfw3bi) (5 minutos) y [probabilidades] (https://www.youtube.com/watch?v=GXBXQJX7FC0) (8 minutos) Si no se siente cómodo con ninguno de esos términos.
+* Lea estos excelentes artículos de BetterExplained: [una guía intuitiva de funciones exponenciales y e] (http://betterexplained.com/articles/an-intuitive-guide-to-exponential-functions-e/) y [desmystificación del logaritmo natural(ln)] (http://betterexplained.com/articles/demystifying-the-natural-logarithm-ln/).Luego, revise este [breve resumen] (cuadernos/12_e_log_examples.ipynb) of exponential functions and logarithms.
 
 -----
 
-### Class 13: Advanced Model Evaluation
-* Data preparation ([notebook](notebooks/13_advanced_model_evaluation.ipynb))
-    * Handling missing values
-    * Handling categorical features (review)
-* ROC curves and AUC
-    * Discuss the [video/reading assignment](homework/13_roc_auc.md)
-    * Exercise: drawing an ROC curve ([slides](slides/13_drawing_roc.pdf))
-    * Return to the main notebook
-* Cross-validation
-    * Discuss the [video/reading assignment](homework/13_cross_validation.md) and associated [notebook](notebooks/13_cross_validation.ipynb)
-    * Return to the main notebook
-* Exercise with bank marketing data ([notebook](notebooks/13_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
+### Clase 12: Regresión logística
+* Yelp Votes Tarea Due ([Solución] (cuadernos/10_yelp_votes_homework.ipynb))
+* Regresión logística ([cuaderno] (cuadernos/12_logistic_regression.ipynb))
+* [Conjunto de datos de identificación de vidrio] (https://archive.ics.uci.edu/ml/datasets/glass+identification)
+* Ejercicio con Titanic Data ([cuaderno] (cuaderno/12_titanic_confusion.ipynb), [data] (data/titanic.csv), [Data Dictionary] (https://www.kaggle.com/c/titanic/data)))
+* Confusion Matrix ([diapositivas] (diapositivas/12_confusion_matrix.pdf), [cuaderno] (cuaderno/12_titanic_confusion.ipynb)))
 
-**Homework:**
-* Reading assignment on [spam filtering](homework/14_spam_filtering.md)
-* Read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides, or skim section 2.1 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php?stat_book=os) (12 pages). Pay specific attention to the following terms: probability, mutually exclusive, sample space, independent.
-* **Optional:** Try to gain an understanding of conditional probability from this [visualization](http://setosa.io/conditional/).
-* **Optional:** For an intuitive introduction to Bayes' theorem, read these posts on [wealth and happiness](http://www.quora.com/What-is-an-intuitive-explanation-of-Bayes-Rule/answer/Michael-Hochster), [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/), or [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
+**Tarea:**
+* Si aún no se siente cómodo con toda la terminología de la matriz de confusión, mire los videos de Rahul Patwari en [Sensibilidad y especificidad intuitiva] (https://www.youtube.com/watch?v=U4_3fditnwg) (9 minutos) y [[9 minutos) y [[9 minutos) y [[La compensación entre sensibilidad y especificidad] (https://www.youtube.com/watch?v=vtydyggeqyo) (13 minutos).
+* Asignación de video/lectura en [curvas ROC y AUC] (tarea/13_roc_auc.md)
+* Asignación de video/lectura en [Validación cruzada] (tarea/13_cross_validation.md)
 
-**ROC Resources:**
-* Rahul Patwari has a great video on [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutes).
-* [An introduction to ROC analysis](http://people.inf.elte.hu/kiss/13dwhdm/roc.pdf) is a very readable paper on the topic.
-* ROC curves can be used across a wide variety of applications, such as [comparing different feature sets](http://research.microsoft.com/pubs/205472/aisec10-leontjeva.pdf) for detecting fraudulent Skype users, and [comparing different classifiers](http://www.cse.ust.hk/nevinZhangGroup/readings/yi/Bradley_PR97.pdf) on a number of popular datasets.
+**Recursos de regresión logística:**
+* Para profundizar en la regresión logística, lea las primeras tres secciones del Capítulo 4 de [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/),O mira el [first three videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) (30 minutos) de ese capítulo.
+* Para una explicación matemática de la regresión logística, mire los primeros siete videos (71 minutos) de la semana 3 de Andrew Ng's [machine learning course](https://www.coursera.org/learn/machine-learning/home/info), o leer el [related lecture notes](http://www.holehouse.org/mlclass/06_Logistic_Regression.html) compilado por un estudiante.
+* Para obtener más información sobre la interpretación de los coeficientes de regresión logística, lea este excelente [guide](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm)por el idre de UCLA y estos [lecture notes](http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf) de la Universidad de Nuevo México.
+* TLa documentación de Scikit-Learn tiene una buena [explanation](http://scikit-learn.org/stable/modules/calibration.html) de lo que significa para una probabilidad prevista para ser calibrada.
+* [Supervised learning superstitions cheat sheet](http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html)es una muy buena comparación de cuatro clasificadores que cubrimos en el curso (regresión logística, árboles de decisión, KNN, Naive Bayes) y un clasificador que no cubrimos (Máquinas de vectores de soporte).
+
+**Recursos de matriz de confusión:**
+* Mi [simple guide to confusion matrix terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) Puede ser útil para usted como referencia.
+*Esta publicación de blog sobre [Amazon Machine Learning](https://aws.amazon.com/blogs/aws/amazon-machine-learning-make-data-driven-decisions-at-scale/) Contiene un ordenado [graphic](https://media.amazonwebservices.com/blog/2015/ml_adjust_model_1.png) Mostrar cómo el umbral de clasificación afecta diferentes métricas de evaluación.
+* Este cuaderno (de otro curso de datos) explicas [how to calculate "expected value"](https://github.com/podopie/DAT18NYC/blob/master/classes/13-expected_value_cost_benefit_analysis.ipynb) fROM una matriz de confusión tratándola como una matriz de costo-beneficio.
+
+-----
+
+### Clase 13: Evaluación avanzada del modelo
+* Preparación de datosn ([notebook](notebooks/13_advanced_model_evaluation.ipynb))
+    * Manejo de valores faltantes
+    * Manejo de características categóricas (revisión)
+* Curvas ROC y AUC
+    * Discutir el[video/reading assignment](homework/13_roc_auc.md)
+    * Ejercicio: dibujar una curva ROC ([slides](slides/13_drawing_roc.pdf))
+    * Volver al cuaderno principal
+* Validación cruzada
+    * Discutir el [video/reading assignment](homework/13_cross_validation.md) and associated [notebook](notebooks/13_cross_validation.ipynb)
+    * Volver al cuaderno principal
+* Eejercicio con datos de marketing bancario ([notebook](notebooks/13_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
+
+**Tareak:**
+* Tarea de lectura on [spam filtering](homework/14_spam_filtering.md)
+* Lee esto [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides, or skim section 2.1 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php?stat_book=os) (12 pages).Preste atención específica a los siguientes términos: probabilidad, mutuamente excluyente, espacio muestral, independiente.
+* **Opcional:** Intente obtener una comprensión de la probabilidad condicional de este [visualization](http://setosa.io/conditional/).
+* **Opcional:** Para una introducción intuitiva al teorema de Bayes, lea estas publicaciones en [wealth and happiness](http://www.quora.com/What-is-an-intuitive-explanation-of-Bayes-Rule/answer/Michael-Hochster), [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/), o [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
+
+**Recursos ROC:**
+* Rahul Patwari tiene un gran videon [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutos).
+* [An introduction to ROC analysis](http://people.inf.elte.hu/kiss/13dwhdm/roc.pdf) es un artículo muy legible sobre el tema.
+* Las curvas ROC se pueden usar en una amplia variedad de aplicaciones, como [comparing different feature sets](http://research.microsoft.com/pubs/205472/aisec10-leontjeva.pdf) para detectar usuarios fraudulentos de Skype, y[comparing different classifiers](http://www.cse.ust.hk/nevinZhangGroup/readings/yi/Bradley_PR97.pdf)en varios conjuntos de datos populares.
 
 **Cross-Validation Resources:**
 * For more on cross-validation, read section 5.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (11 pages) or watch the related videos: [K-fold and leave-one-out cross-validation](https://www.youtube.com/watch?v=nZAM5OXrktY) (14 minutes), [cross-validation the right and wrong ways](https://www.youtube.com/watch?v=S06JpVoNaA0) (10 minutes).
