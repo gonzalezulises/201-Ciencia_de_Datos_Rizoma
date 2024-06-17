@@ -255,38 +255,37 @@ Tuesday | Thursday
 * Lea la [Introducción a la reproducibilidad] de Kevin (http://www.dataschool.io/reproducibilidad-is-not-just-for-researchers/), lea la guía de Jeff Leek para crear un análisis reproducible] (https: // github.com/jtleek/dataHaring), y vea este video relacionado [Video de Informe de Colbert] (http://thecolberstreport.cc.com/videos/dcyvro/austerity-s-sepersheet-error) (8 minutos).
 * Trabaje en su proyecto ... ¡su primera presentación del proyecto está en menos de dos semanas!
 
-**KNN Resources:**
-* For a recap of the key points about KNN and scikit-learn, watch [Getting started in scikit-learn with the famous iris dataset](https://www.youtube.com/watch?v=hd1W4CyPX58) (15 minutes) and [Training a machine learning model with scikit-learn](https://www.youtube.com/watch?v=RlQuVL6-qe8) (20 minutes).
-* KNN supports [distance metrics](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html) other than Euclidean distance, such as [Mahalanobis distance](http://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance), which [takes the scale of the data into account](http://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html).
-* [A Detailed Introduction to KNN](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/) is a bit dense, but provides a more thorough introduction to KNN and its applications.
-* This lecture on [Image Classification](http://cs231n.github.io/classification/) shows how KNN could be used for detecting similar images, and also touches on topics we will cover in future classes (hyperparameter tuning and cross-validation).
-* Some applications for which KNN is well-suited are [object recognition](http://vlm1.uta.edu/~athitsos/nearest_neighbors/), [satellite image enhancement](http://land.umn.edu/documents/FS6.pdf), [document categorization](http://www.ceng.metu.edu.tr/~e120321/paper.pdf), and [gene expression analysis](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.208.993).
+** RECURSOS KNN: **
+* Para un resumen de los puntos clave sobre Knn y Scikit-Learn, mira [Getting started in scikit-learn with the famous iris dataset](https://www.youtube.com/watch?v=hd1W4CyPX58) (15 minutos) y [Training a machine learning model with scikit-learn](https://www.youtube.com/watch?v=RlQuVL6-qe8) (20 minutes).
+* KNN soporta [distance metrics](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html) aparte de la distancia euclidiana, como [Mahalanobis distance](http://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance), cual [takes the scale of the data into account](http://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html).
+* [A Detailed Introduction to KNN](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/) es un poco denso, pero proporciona una introducción más exhaustiva a KNN y sus aplicaciones.
+* Esta conferencia en [Image Classification](http://cs231n.github.io/classification/) sCómo se podría utilizar cómo se podría usar KNN para detectar imágenes similares, y también toca temas que cubriremos en clases futuras (ajuste de hiperparámetro y validación cruzada).
+* Algunas aplicaciones para las cuales KNN es muy adecuada son [object recognition](http://vlm1.uta.edu/~athitsos/nearest_neighbors/), [satellite image enhancement](http://land.umn.edu/documents/FS6.pdf), [document categorization](http://www.ceng.metu.edu.tr/~e120321/paper.pdf),y [gene expression analysis](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.208.993).
 
-**Seaborn Resources:**
-* To get started with Seaborn for visualization, the official website has a series of [detailed tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) and an [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
-* [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) is a quick tour of some of the popular types of Seaborn plots.
-* [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) and [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) are both good examples of Seaborn usage on real-world data.
+**Recursos Seaborn:**
+* Para comenzar con Seaborn para la visualización, el sitio web oficial tiene una serie de [detailed tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) y un [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
+* [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) es un recorrido rápido por algunos de los tipos populares de parcelas marinas.
+* [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) y [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) son buenos ejemplos de uso de marinas sobre datos del mundo real.
 
 -----
 
-### Class 9: Basic Model Evaluation
-* Optional web scraping homework due ([solution](code/07_web_scraping.py#L136))
-* Reproducibility
-    * Discuss assigned readings: [introduction](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error), [cabs article](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2), [Tweet](https://twitter.com/jakevdp/status/519563939177197571), [creating a reproducible analysis](https://github.com/jtleek/datasharing)
+### Clase 9: Evaluación básica del modelo
+* Tarea de raspado web opcional adeudado ([solution](code/07_web_scraping.py#L136))
+* Reproducibilidad
+    * Discuta las lecturas asignadas:[introduction](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error), [cabs article](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2), [Tweet](https://twitter.com/jakevdp/status/519563939177197571), [creating a reproducible analysis](https://github.com/jtleek/datasharing)
     * Examples: [Classic rock](https://github.com/fivethirtyeight/data/tree/master/classic-rock), [student project 1](https://github.com/jwknobloch/DAT4_final_project), [student project 2](https://github.com/justmarkham/DAT4-students/tree/master/Jonathan_Bryan/Project_Files)
-* Discuss the reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
-* Model evaluation using train/test split ([notebook](notebooks/09_model_evaluation.ipynb))
-* Exploring the scikit-learn documentation: [module reference](http://scikit-learn.org/stable/modules/classes.html), [user guide](http://scikit-learn.org/stable/user_guide.html), class and function documentation
+* Discuta la tarea de lectura en el [bias-variance tradeoff](homework/09_bias_variance.md)
+* Evaluación del modelo utilizando la división de trenes/pruebas([notebook](notebooks/09_model_evaluation.ipynb))
+* Explorando la documentación de Scikit-Learn: [module reference](http://scikit-learn.org/stable/modules/classes.html), [user guide](http://scikit-learn.org/stable/user_guide.html), Documentación de clase y función
 
-**Homework:**
-* Watch [Data science in Python](https://www.youtube.com/watch?v=3ZWuPVWq7p4) (35 minutes) for an introduction to linear regression (and a review of other course content), or at the very least, read through the [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/06_linear_regression.ipynb).
-* **Optional:** For another introduction to linear regression, watch [The Easiest Introduction to Regression Analysis](https://www.youtube.com/watch?v=k_OB1tWX9PM) (14 minutes).
+* [Data science in Python](https://www.youtube.com/watch?v=3ZWuPVWq7p4) [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/06_linear_regression.ipynb).
+* **Optional:* [The Easiest Introduction to Regression Analysis](https://www.youtube.com/watch?v=k_OB1tWX9PM)
 
-**Model Evaluation Resources:**
-* For a recap of some of the key points from today's lesson, watch [Comparing machine learning models in scikit-learn](https://www.youtube.com/watch?v=0pP4EwWJgIU) (27 minutes).
-* For another explanation of training error versus testing error, the bias-variance tradeoff, and train/test split (also known as the "validation set approach"), watch Hastie and Tibshirani's video on [estimating prediction error](https://www.youtube.com/watch?v=_2ij6eaaSl0&t=2m34s) (12 minutes, starting at 2:34).
-* Caltech's Learning From Data course includes a fantastic video on [visualizing bias and variance](http://work.caltech.edu/library/081.html) (15 minutes).
-* [Random Test/Train Split is Not Always Enough](http://www.win-vector.com/blog/2015/01/random-testtrain-split-is-not-always-enough/) explains why random train/test split may not be a suitable model evaluation procedure if your data has a significant time element.
+**Recursos de evaluación del modelo**
+*Para un resumen de algunos de los puntos clave de la lección de hoy, mira [Comparing machine learning models in scikit-learn](https://www.youtube.com/watch?v=0pP4EwWJgIU)(27 minutos).
+* For Otra explicación del error de entrenamiento versus el error de prueba, la compensación de varianza de sesgo y la división de trenes/pruebas (también conocido como "enfoque de conjunto de validación"), mira el video de Hastie y Tibshirani en[estimating prediction error](https://www.youtube.com/watch?v=_2ij6eaaSl0&t=2m34s) (12 minutos, comenzando a las 2:34).
+* El aprendizaje de Caltech de los datos incluye un video fantástico en [visualizing bias and variance](http://work.caltech.edu/library/081.html) (15 minutos).
+* [Random Test/Train Split is Not Always Enough](http://www.win-vector.com/blog/2015/01/random-testtrain-split-is-not-always-enough/)Explica por qué la división aleatoria de trenes/pruebas puede no ser un procedimiento de evaluación de modelo adecuado si sus datos tienen un elemento de tiempo significativo.
 
 **Reproducibility Resources:**
 * [What We've Learned About Sharing Our Data Analysis](https://source.opennews.org/en-US/articles/what-weve-learned-about-sharing-our-data-analysis/) includes tips from BuzzFeed News about how to publish a reproducible analysis.
