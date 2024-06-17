@@ -182,7 +182,7 @@ Tuesday | Thursday
 
 -----
 
-###Clase 6: Aprendizaje automático
+### Clase 6: Aprendizaje automático
 * Parte 2 de la visualización con pandas y matplotlib([notebook](notebooks/05_pandas_visualization.ipynb))
 *Breve introducción al cuaderno Jupyter/Ipython
 *Ejercicio de "aprendizaje humano":
@@ -205,7 +205,7 @@ Tuesday | Thursday
 * [The Emoji Translation Project](https://www.kickstarter.com/projects/fred/the-emoji-translation-project)es una aplicación realmente divertida del aprendizaje automático.
 * Busque el[characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/), y luego lee sobre el [67 distinct segments](http://doc.arcgis.com/en/esri-demographics/data/tapestry-segmentation.htm) en detalle.
 
-** Recursos de cuaderno de iPython:**
+**Recursos de cuaderno de iPython**
 * Para un resumen de la introducción del cuaderno de iPython (y una vista previa de Scikit-Learn), mire [scikit-learn and the IPython Notebook](https://www.youtube.com/watch?v=IsXXlYVBt1M) (15 minutos) o leer el[associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/02_machine_learning_setup.ipynb).
 *Si desea aprender el cuaderno de iPython, el oficial[Notebook tutorials](https://github.com/jupyter/notebook/blob/master/docs/source/examples/Notebook/Examples%20and%20Tutorials%20Index.ipynb) Son útiles.
 *Esta [Reddit discussion](https://www.reddit.com/r/Python/comments/3be5z2/do_you_prefer_ipython_notebook_over_ipython/) Compara las fortalezas relativas del cuaderno de Ipython y Spyder.
@@ -226,7 +226,7 @@ Tuesday | Thursday
 *** Opcional: ** Complete el ejercicio de tarea enumerado en el [web scraping code](code/07_web_scraping.py). ¡Tomará el lugar de cualquier tarea que pierda, pasado o futuro!Esto se debe el martes (15/09).
 * **Opcional: ** Si no estás usando Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) usando `pip`. Si está utilizando Anaconda, instale SeaBorn corriendo `conda install seaborn`en la línea de comando.(Tenga en cuenta que algunos estudiantes en cursos pasados ​​han tenido problemas con Anaconda después de instalar Seorn).
 
-**Recursos API: **
+**Recursos API**
 *Este guión de Python para [query the U.S. Census API](https://github.com/laurakurup/census-api) fue creado por un ex alumno de DA.Es un poco más complicado que el ejemplo que usamos en la clase, está muy bien comentado y puede proporcionar un marco útil para escribir su propio código para consultar las API.
 * [Mashape](https://www.mashape.com/explore) y [Apigee](https://apigee.com/providers)Permitirle explorar toneladas de diferentes API.Alternativamente, un [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) está disponible para muchas API populares.
 * the [Data Science Toolkit](http://www.datasciencetoolkit.org/) es una colección de API basadas en la ubicación y relacionadas con el texto.
@@ -244,11 +244,11 @@ Tuesday | Thursday
 
 -----
 
-### Class 8: K-Nearest Neighbors
-* Brief review of Pandas ([notebook](notebooks/08_pandas_review.ipynb))
-* K-nearest neighbors and scikit-learn ([notebook](notebooks/08_knn_sklearn.ipynb))
-* Exercise with NBA player data ([notebook](notebooks/08_nba_knn.ipynb), [data](https://github.com/justmarkham/DAT4-students/blob/master/kerry/Final/NBA_players_2015.csv), [data dictionary](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/nba_paper.pdf))
-* Exploring the bias-variance tradeoff ([notebook](notebooks/08_bias_variance.ipynb))
+### Clase 8: vecinos K-nears
+* Breve revisión de pandas ([cuaderno] (cuadernos/08_pandas_review.ipynb)))
+* K-Near más vecinos y scikit-learn ([cuaderno] (cuadernos/08_knn_sklearn.ipynb))
+* Ejercicio con los datos del jugador de la NBA ([cuaderno] (cuaderno/08_nba_knn.ipynb), [data] (https://github.com/justmarkham/dat4-students/blob/master/kerry/final/nba_players_2015.csv), [Dicción de datos] (https://github.com/justmarkham/dat-project-examples/blob/master/pdf/nba_paper.pdf)))
+* Explorando la compensación de varianza de sesgo ([cuaderno] (cuadernos/08_bias_variance.ipynb))
 
 **Homework:**
 * Reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
