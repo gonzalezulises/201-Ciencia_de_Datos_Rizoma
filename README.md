@@ -476,43 +476,43 @@ Tuesday | Thursday
 
 -----
 
-### Class 17: Decision Trees
-* Decision trees ([notebook](notebooks/17_decision_trees.ipynb))
-* Exercise with Capital Bikeshare data ([notebook](notebooks/17_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
+### Clase 17: Árboles de decisión
+* Árboles de decisión ([notebook](notebooks/17_decision_trees.ipynb))
+* Ejercicio con los datos de Bikeshare de Capital([notebook](notebooks/17_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
 
-**Homework:**
-* Read the "Wisdom of the crowds" section from MLWave's post on [Human Ensemble Learning](http://mlwave.com/human-ensemble-learning/).
-* **Optional:** Read the abstract from [Do We Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.csail.mit.edu/papers/volume15/delgado14a/delgado14a.pdf), as well as Kaggle CTO Ben Hamner's [comment](https://news.ycombinator.com/item?id=8719723) about the paper, paying attention to the mentions of "Random Forests".
+**Tarea:**
+* Lea la sección "Sabiduría de las multitudes" de la publicación de Mlwave en [Human Ensemble Learning](http://mlwave.com/human-ensemble-learning/).
+* **Optional:** Leer el resumen de [Do We Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.csail.mit.edu/papers/volume15/delgado14a/delgado14a.pdf), aS como Kaggle CTO Ben Namner's [comment](https://news.ycombinator.com/item?id=8719723) sobre el documento, prestando atención a las menciones de "bosques aleatorios".
 
-**Resources:**
-* scikit-learn's documentation on [decision trees](http://scikit-learn.org/stable/modules/tree.html) includes a nice overview of trees as well as tips for proper usage.
-* For a more thorough introduction to decision trees, read section 4.3 (23 pages) of [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php). (Chapter 4 is available as a free download.)
-* If you want to go deep into the different decision tree algorithms, this slide deck contains [A Brief History of Classification and Regression Trees](https://drive.google.com/file/d/0B-BKohKl-jUYQ3RpMEF0OGRUU3RHVGpHY203NFd3Z19Nc1ZF/view).
-* [The Science of Singing Along](http://www.doc.gold.ac.uk/~mas03dm/papers/PawleyMullensiefen_Singalong_2012.pdf) contains a neat regression tree (page 136) for predicting the percentage of an audience at a music venue that will sing along to a pop song.
-* Decision trees are common in the medical field for differential diagnosis, such as this classification tree for [identifying psychosis](http://www.psychcongress.com/sites/naccme.com/files/images/pcn/saundras/psychosis_decision_tree.pdf).
+**Recursos:**
+* La documentación de Scikit-Learn en [decision trees](http://scikit-learn.org/stable/modules/tree.html) Incluye una buena descripción de los árboles, así como consejos para el uso adecuado.
+* Para una introducción más exhaustiva a los árboles de decisión, lea la Sección 4.3 (23 páginas) de [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php). (El Capítulo 4 está disponible como descarga gratuita).
+* Si quieres profundizar en los diferentes algoritmos de árbol de decisión, este mazo de diapositivas contiene [A Brief History of Classification and Regression Trees](https://drive.google.com/file/d/0B-BKohKl-jUYQ3RpMEF0OGRUU3RHVGpHY203NFd3Z19Nc1ZF/view).
+* [The Science of Singing Along](http://www.doc.gold.ac.uk/~mas03dm/papers/PawleyMullensiefen_Singalong_2012.pdf) Contiene un árbol de regresión ordenado (página 136) para predecir el porcentaje de una audiencia en un lugar de música que cantará junto con una canción pop.
+* Los árboles de decisión son comunes en el campo de la medicina para el diagnóstico diferencial, como este árbol de clasificación para [identifying psychosis](http://www.psychcongress.com/sites/naccme.com/files/images/pcn/saundras/psychosis_decision_tree.pdf).
 
 -----
 
-### Class 18: Ensembling
-* Finish decision trees lesson ([notebook](notebooks/17_decision_trees.ipynb))
-* Ensembling ([notebook](notebooks/18_ensembling.ipynb))
+### Clase 18: Ensembling
+* Lección de árboles de decisión de finalización([notebook](notebooks/17_decision_trees.ipynb))
+* Conjunto ([notebook](notebooks/18_ensembling.ipynb))
     * [Major League Baseball player data](data/hitters.csv) from 1986-87
     * [Data dictionary](https://cran.r-project.org/web/packages/ISLR/ISLR.pdf) (page 7)
 
-**Resources:**
-* scikit-learn's documentation on [ensemble methods](http://scikit-learn.org/stable/modules/ensemble.html) covers both "averaging methods" (such as bagging and Random Forests) as well as "boosting methods" (such as AdaBoost and Gradient Tree Boosting).
-* MLWave's [Kaggle Ensembling Guide](http://mlwave.com/kaggle-ensembling-guide/) is very thorough and shows the many different ways that ensembling can take place.
-* Browse the excellent [solution paper](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ChenglongChen/Kaggle_CrowdFlower/master/Doc/Kaggle_CrowdFlower_ChenglongChen.pdf) from the winner of Kaggle's [CrowdFlower competition](https://www.kaggle.com/c/crowdflower-search-relevance) for an example of the work and insight required to win a Kaggle competition.
-* [Interpretable vs Powerful Predictive Models: Why We Need Them Both](https://medium.com/@chris_bour/interpretable-vs-powerful-predictive-models-why-we-need-them-both-990340074979) is a short post on how the tactics useful in a Kaggle competition are not always useful in the real world.
-* [Not Even the People Who Write Algorithms Really Know How They Work](http://www.theatlantic.com/technology/archive/2015/09/not-even-the-people-who-write-algorithms-really-know-how-they-work/406099/) argues that the decreased interpretability of state-of-the-art machine learning models has a negative impact on society.
-* For an intuitive explanation of Random Forests, read Edwin Chen's answer to [How do random forests work in layman's terms?](http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
-* [Large Scale Decision Forests: Lessons Learned](http://blog.siftscience.com/blog/2015/large-scale-decision-forests-lessons-learned) is an excellent post from Sift Science about their custom implementation of Random Forests.
-* [Unboxing the Random Forest Classifier](http://nerds.airbnb.com/unboxing-the-random-forest-classifier/) describes a way to interpret the inner workings of Random Forests beyond just feature importances.
-* [Understanding Random Forests: From Theory to Practice](http://arxiv.org/pdf/1407.7502v3.pdf) is an in-depth academic analysis of Random Forests, including details of its implementation in scikit-learn.
+**Recursos:**
+* La documentación de Scikit-Learn en [ensemble methods](http://scikit-learn.org/stable/modules/ensemble.html) cubre tanto los "métodos de promedio" (como el bolso y los bosques aleatorios), así como los "métodos de impulso" (como el impulso de Adaaboost y Gradient Tree).
+*Mlwave[Kaggle Ensembling Guide](http://mlwave.com/kaggle-ensembling-guide/) es muy minucioso y muestra las diferentes formas en que puede tener lugar el conjunto.
+* Explorar lo excelente [solution paper](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ChenglongChen/Kaggle_CrowdFlower/master/Doc/Kaggle_CrowdFlower_ChenglongChen.pdf) del ganador de Kaggle's[CrowdFlower competition](https://www.kaggle.com/c/crowdflower-search-relevance) fO un ejemplo del trabajo y la visión necesaria para ganar una competencia de Kaggle.
+* [Interpretable vs Powerful Predictive Models: Why We Need Them Both](https://medium.com/@chris_bour/interpretable-vs-powerful-predictive-models-why-we-need-them-both-990340074979) Es una breve publicación sobre cómo las tácticas útiles en una competencia de Kaggle no siempre son útiles en el mundo real.
+* [Not Even the People Who Write Algorithms Really Know How They Work](http://www.theatlantic.com/technology/archive/2015/09/not-even-the-people-who-write-algorithms-really-know-how-they-work/406099/) Argumenta que la disminución de la interpretabilidad de los modelos de aprendizaje automático de última generación tiene un impacto negativo en la sociedad.
+* Para una explicación intuitiva de los bosques aleatorios, lea la respuesta de Edwin Chen a [How do random forests work in layman's terms?](http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
+* [Large Scale Decision Forests: Lessons Learned](http://blog.siftscience.com/blog/2015/large-scale-decision-forests-lessons-learned) es una excelente publicación de Sift Science sobre su implementación personalizada de bosques aleatorios.
+* [Unboxing the Random Forest Classifier](http://nerds.airbnb.com/unboxing-the-random-forest-classifier/)Describe una forma de interpretar el funcionamiento interno de los bosques aleatorios más allá de las importantes importantes.
+* [Understanding Random Forests: From Theory to Practice](http://arxiv.org/pdf/1407.7502v3.pdf) es un análisis académico en profundidad de bosques aleatorios, incluidos los detalles de su implementación en Scikit-Learn.
 
 -----
 
-### Class 19: Advanced scikit-learn and Clustering
+### Clase 19: Scikit-learn y Clustering avanzado
 * Advanced scikit-learn ([notebook](notebooks/19_advanced_sklearn.ipynb))
     * [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html): standardizing features
     * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps
@@ -520,53 +520,53 @@ Tuesday | Thursday
     * K-means: [documentation](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html), [visualization 1](http://tech.nitoyon.com/en/blog/2013/11/07/k-means/), [visualization 2](http://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
     * DBSCAN: [documentation](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), [visualization](http://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
-**Homework:**
-* Reread [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html). (The "answers" to the [guiding questions](homework/09_bias_variance.md) have been posted and may be helpful to you.)
-* **Optional:** Watch these two excellent (and related) videos from Caltech's Learning From Data course: [bias-variance tradeoff](http://work.caltech.edu/library/081.html) (15 minutes) and [regularization](http://work.caltech.edu/library/121.html) (8 minutes).
+**Tarea:**
+* Releer[Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html). (The "answers" to the [guiding questions](homework/09_bias_variance.md) he sido publicado y puede ser útil para usted).
+* **Opcional:** Mire estos dos videos excelentes (y relacionados) del curso de Aprendizaje de Data de Caltech: [bias-variance tradeoff](http://work.caltech.edu/library/081.html) (15 minutos) y [regularization](http://work.caltech.edu/library/121.html) (8 minutos).
 
-**scikit-learn Resources:**
-* This is a longer example of [feature scaling](https://github.com/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb) in scikit-learn, with additional discussion of the types of scaling you can use.
-* [Practical Data Science in Python](http://radimrehurek.com/data_science_python/) is a long and well-written notebook that uses a few advanced scikit-learn features: pipelining, plotting a learning curve, and pickling a model.
-* To learn how to use [GridSearchCV and RandomizedSearchCV](http://scikit-learn.org/stable/modules/grid_search.html) for parameter tuning, watch [How to find the best model parameters in scikit-learn](https://www.youtube.com/watch?v=Gol_qOgRqfA) (28 minutes) or read the [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb).
-* Sebastian Raschka has a number of excellent resources for scikit-learn users, including a repository of [tutorials and examples](https://github.com/rasbt/pattern_classification), a library of machine learning [tools and extensions](http://rasbt.github.io/mlxtend/), a new [book](https://github.com/rasbt/python-machine-learning-book), and a semi-active [blog](http://sebastianraschka.com/blog/).
-* scikit-learn has an incredibly active [mailing list](https://www.mail-archive.com/scikit-learn-general@lists.sourceforge.net/index.html) that is often much more useful than Stack Overflow for researching functions and asking questions.
-* If you forget how to use a particular scikit-learn function that we have used in class, don't forget that this repository is fully searchable!
+**recursos de Scikit-Learn:**
+* Este es un ejemplo más largo de [feature scaling](https://github.com/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb) En Scikit-Learn, con una discusión adicional de los tipos de escala que puede usar.
+* [Practical Data Science in Python](http://radimrehurek.com/data_science_python/) iS un cuaderno largo y bien escrito que utiliza algunas características avanzadas de Scikit-Learn: tuberías, trazar una curva de aprendizaje y encurtir un modelo.
+* Para aprender a usar [GridSearchCV and RandomizedSearchCV](http://scikit-learn.org/stable/modules/grid_search.html) Para el ajuste de los parámetros, mira[How to find the best model parameters in scikit-learn](https://www.youtube.com/watch?v=Gol_qOgRqfA) (28 minutos) o lea el[associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb).
+* Sebastian Raschka tiene una serie de excelentes recursos para los usuarios de Scikit-Learn, incluido un repositorio de[tutorials and examples](https://github.com/rasbt/pattern_classification), Una biblioteca de aprendizaje automático [tools and extensions](http://rasbt.github.io/mlxtend/), a new [book](https://github.com/rasbt/python-machine-learning-book), y un semi-activo [blog](http://sebastianraschka.com/blog/).
+* Scikit-Learn tiene un increíblemente activo [mailing list](https://www.mail-archive.com/scikit-learn-general@lists.sourceforge.net/index.html) Eso a menudo es mucho más útil que el desbordamiento de la pila para investigar las funciones y hacer preguntas.
+* Si olvida cómo usar una función particular de Scikit-Learn que hemos usado en la clase, ¡no olvide que este repositorio es completamente búsqueda!
 
-**Clustering Resources:**
-* For a very thorough introduction to clustering, read chapter 8 (69 pages) of [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) (available as a free download), or browse through the chapter 8 slides.
-* scikit-learn's user guide compares many different [types of clustering](http://scikit-learn.org/stable/modules/clustering.html).
-* This [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic6-Clustering.ppt) from Columbia's Data Mining class provides a good introduction to clustering, including hierarchical clustering and alternative distance metrics.
-* An Introduction to Statistical Learning has useful videos on [K-means clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (17 minutes) and [hierarchical clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (15 minutes).
-* This is an excellent interactive visualization of [hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/).
-* This is a nice animated explanation of [mean shift clustering](http://spin.atomicobject.com/2015/05/26/mean-shift-clustering/).
-* The [K-modes algorithm](http://www.cs.ust.hk/~qyang/Teaching/537/Papers/huang98extensions.pdf) can be used for clustering datasets of categorical features without converting them to numerical values. Here is a [Python implementation](https://github.com/nicodv/kmodes).
-* Here are some fun examples of clustering: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
+**Recursos de Clustering:**
+* Para una introducción muy exhaustiva a la agrupación, lea el Capítulo 8 (69 páginas) de [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) (Disponible como descarga gratuita), o navegar a través de las diapositivas del Capítulo 8.
+* Guía del usuario de Scikit-Learn compara muchos diferentes[types of clustering](http://scikit-learn.org/stable/modules/clustering.html).
+* Esta[PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic6-Clustering.ppt) De la clase de minería de datos de Columbia proporciona una buena introducción a la agrupación, incluida la agrupación jerárquica y las métricas de distancia alternativa.
+* Una introducción al aprendizaje estadístico tiene videos útiles sobre[K-means clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)(17 minutos) y [hierarchical clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (15 minutos).
+* Esta es una excelente visualización interactiva de [hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/).
+* Esta es una buena explicación animada de[mean shift clustering](http://spin.atomicobject.com/2015/05/26/mean-shift-clustering/).
+* La [K-modes algorithm](http://www.cs.ust.hk/~qyang/Teaching/537/Papers/huang98extensions.pdf) Se puede utilizar para agrupar conjuntos de datos de características categóricas sin convertirlos en valores numéricos.Aquí hay una [implementación de Python] (https://github.com/nicodv/kmodes).
+* Aquí hay algunos ejemplos divertidos de agrupación: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
 
 -----
 
-### Class 20: Regularization and Regular Expressions
-* Regularization ([notebook](notebooks/20_regularization.ipynb))
-    * Regression: [Ridge](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html), [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html), [Lasso](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html), [LassoCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoCV.html)
-    * Classification: [LogisticRegression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-    * Helper functions: [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html), [GridSearchCV](http://scikit-learn.org/stable/modules/grid_search.html)
-* Regular expressions
+### Clase 20: Regularización y expresiones regulares
+* Regularización ([notebook](notebooks/20_regularization.ipynb))
+    * Regresión: [Ridge](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html), [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html), [Lasso](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html), [LassoCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoCV.html)
+    * Clasificación: [LogisticRegression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+    * Funciones de ayudante: [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html), [GridSearchCV](http://scikit-learn.org/stable/modules/grid_search.html)
+* Expresiones regulares
     * [Baltimore homicide data](data/homicides.txt)
     * [Regular expressions 101](https://regex101.com/#python): real-time testing of regular expressions
     * [Reference guide](code/20_regex_reference.py)
     * [Exercise](code/20_regex_exercise.py)
 
-**Homework:**
-* Your final project is due next week!
-* **Optional:** Make your final submissions to our Kaggle competition! It closes at 6:30pm ET on Tuesday 10/27.
-* **Optional:** Read this classic paper, which may help you to connect many of the topics we have studied throughout the course: [A Few Useful Things to Know about Machine Learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf).
+**Tarea:**
+* ¡Su proyecto final se presentará la próxima semana!
+* **Opcional:** ¡Haga sus presentaciones finales a nuestra competencia de Kaggle!Cierra a las 6:30 pm ET el martes 27/10.
+* **Opcional:** Lea este artículo clásico, que puede ayudarlo a conectar muchos de los temas que hemos estudiado durante todo el curso: [A Few Useful Things to Know about Machine Learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf).
 
-**Regularization Resources:**
-* The scikit-learn user guide for [Generalized Linear Models](http://scikit-learn.org/stable/modules/linear_model.html) explains different variations of regularization.
-* Section 6.2 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (14 pages) introduces both lasso and ridge regression. Or, watch the related videos on [ridge regression](https://www.youtube.com/watch?v=cSKzqb0EKS0&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI&index=6) (13 minutes) and [lasso regression](https://www.youtube.com/watch?v=A5I1G1MfUmA&index=7&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI) (15 minutes).
-* For more details on lasso regression, read Tibshirani's [original paper](http://statweb.stanford.edu/~tibs/lasso/lasso.pdf).
-* For a math-ier explanation of regularization, watch the last four videos (30 minutes) from week 3 of Andrew Ng's [machine learning course](https://www.coursera.org/learn/machine-learning/), or read the [related lecture notes](http://www.holehouse.org/mlclass/07_Regularization.html) compiled by a student.
-* This [notebook](https://github.com/luispedro/PenalizedRegression/blob/master/PenalizedRegression.ipynb) from chapter 7 of [Building Machine Learning Systems with Python](https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python) has a nice long example of regularized linear regression.
-* There are some special considerations when using dummy encoding for categorical features with a regularized model. This [Cross Validated Q&A](https://stats.stackexchange.com/questions/69568/whether-to-rescale-indicator-binary-dummy-predictors-for-lasso) debates whether the dummy variables should be standardized (along with the rest of the features), and a comment on this [blog post](http://appliedpredictivemodeling.com/blog/2013/10/23/the-basics-of-encoding-categorical-data-for-predictive-models) recommends that the baseline level should not be dropped.
+**Recurso de regularizacións:**
+* La guía del usuario de Scikit-Learn para[Generalized Linear Models](http://scikit-learn.org/stable/modules/linear_model.html) explica diferentes variaciones de regularización.
+* Sección 6.2 de [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (14 páginas) introduces both lasso and ridge regression. Or, watch the related videos on [ridge regression](https://www.youtube.com/watch?v=cSKzqb0EKS0&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI&index=6) (13 minutos) and [lasso regression](https://www.youtube.com/watch?v=A5I1G1MfUmA&index=7&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI) (15 minutos).
+* Para más detalles sobre la regresión de Lasso, lea Tibshirani[original paper](http://statweb.stanford.edu/~tibs/lasso/lasso.pdf).
+* Para una explicación matemática de regularización, mire los últimos cuatro videos (30 minutos) de la semana 3 de Andrew Ng's[machine learning course](https://www.coursera.org/learn/machine-learning/), o leer el[related lecture notes](http://www.holehouse.org/mlclass/07_Regularization.html) compilado por un estudiante.
+* Esta [notebook](https://github.com/luispedro/PenalizedRegression/blob/master/PenalizedRegression.ipynb) Del capítulo 7 de[Building Machine Learning Systems with Python](https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python) Tiene un buen ejemplo largo de regresión lineal regularizada.
+* Hay algunas consideraciones especiales al usar la codificación ficticia para características categóricas con un modelo regularizado.Este [Cross Validated Q&A](https://stats.stackexchange.com/questions/69568/whether-to-rescale-indicator-binary-dummy-predictors-for-lasso) debates si las variables ficticias deben estandarizarse (junto con el resto de las características), y un comentario sobre esto [blog post](http://appliedpredictivemodeling.com/blog/2013/10/23/the-basics-of-encoding-categorical-data-for-predictive-models) Recomienda que el nivel de referencia no se elimine.
 
 **Regular Expressions Resources:**
 * Google's Python Class includes an excellent [introductory lesson](https://developers.google.com/edu/python/regular-expressions) on regular expressions (which also has an associated [video](https://www.youtube.com/watch?v=kWyoYtvJpe4&index=4&list=PL5-da3qGB5IA5NwDxcEJ5dvt8F9OQP7q5)).
@@ -578,57 +578,57 @@ Tuesday | Thursday
 
 -----
 
-### Class 21: Course Review and Final Project Presentation
-* Project presentations!
+### Clase 21: Revisión del curso y presentación final del proyecto
+* ¡Presentaciones del proyecto!
 * [Data science review](https://docs.google.com/document/d/19gBCkmrbMpFFLPX8wa5daMnyl7J5BXhMV8JNJwgp1pk/edit?usp=sharing)
 
-**Resources:**
-* scikit-learn's [machine learning map](http://scikit-learn.org/stable/tutorial/machine_learning_map/) may help you to choose the "best" model for your task.
-* [Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/) is a short and highly readable comparison of several classification models, [Classifier comparison](http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html) is scikit-learn's visualization of classifier decision boundaries, [Comparing supervised learning algorithms](http://www.dataschool.io/comparing-supervised-learning-algorithms/) is a model comparison table that I created, and [Supervised learning superstitions cheat sheet](http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html) is a more thorough comparison (with links to lots of useful resources).
-* [Machine Learning Done Wrong](http://ml.posthaven.com/machine-learning-done-wrong), [Machine Learning Gremlins](https://www.youtube.com/watch?v=tleeC-KlsKA) (31 minutes), [Clever Methods of Overfitting](http://hunch.net/?p=22), and [Common Pitfalls in Machine Learning](http://danielnee.com/?p=155) all offer thoughtful advice on how to avoid common mistakes in machine learning.
-* [Practical machine learning tricks from the KDD 2011 best industry paper](http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/) and Andrew Ng's [Advice for applying machine learning](http://cs229.stanford.edu/materials/ML-advice.pdf) include slightly more advanced advice than the resources above.
-* [An Empirical Comparison of Supervised Learning Algorithms](http://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf) is a readable research paper from 2006, which was also presented as a [talk](http://videolectures.net/solomon_caruana_wslmw/) (77 minutes).
+**Recursos:**
+* scikitLearn's [machine learning map](http://scikit-learn.org/stable/tutorial/machine_learning_map/) Puede ayudarlo a elegir el "mejor" modelo para su tarea.
+* [Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/) es una comparación corta y muy legible de varios modelos de clasificación, [Classifier comparison](http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html) es la visualización de Scikit-Learn de los límites de decisión del clasificador, [Comparing supervised learning algorithms](http://www.dataschool.io/comparing-supervised-learning-algorithms/) es una tabla de comparación de modelos que creé, y [Supervised learning superstitions cheat sheet](http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html) is a more thorough comparison (with links to lots of useful resources).
+* [Machine Learning Done Wrong](http://ml.posthaven.com/machine-learning-done-wrong), [Machine Learning Gremlins](https://www.youtube.com/watch?v=tleeC-KlsKA) (31 minutos), [Clever Methods of Overfitting](http://hunch.net/?p=22), and [Common Pitfalls in Machine Learning](http://danielnee.com/?p=155) Todos ofrecen consejos reflexivos sobre cómo evitar errores comunes en el aprendizaje automático.
+* [Practical machine learning tricks from the KDD 2011 best industry paper](http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/)y Andrew Ng's [Advice for applying machine learning](http://cs229.stanford.edu/materials/ML-advice.pdf) Incluya consejos un poco más avanzados que los recursos anteriores.
+* [An Empirical Comparison of Supervised Learning Algorithms](http://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf) es un trabajo de investigación legible de 2006, que también se presentó como un[talk](http://videolectures.net/solomon_caruana_wslmw/)(77 minutos).
 
 -----
 
-### Class 22: Final Project Presentation
-* Project presentations!
+### Clase 22: Presentación final del proyecto
+* ¡Presentaciones del proyecto!
 * [What's next?](other/advice.md)
 
 -----
 
-## Additional Resources
+## Recursos adicionales
 
-### Tidy Data
-* [Good Data Management Practices for Data Analysis](https://www.prometheusresearch.com/good-data-management-practices-for-data-analysis-tidy-data-part-2/) briefly summarizes the principles of "tidy data".
-* [Hadley Wickham's paper](http://www.jstatsoft.org/article/view/v059i10) explains tidy data in detail and includes lots of good examples.
-* Example of a tidy dataset: [Bob Ross](https://github.com/fivethirtyeight/data/blob/master/bob-ross/elements-by-episode.csv)
-* Examples of untidy datasets: [NFL ticket prices](https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/2014-average-ticket-price.csv), [airline safety](https://github.com/fivethirtyeight/data/blob/master/airline-safety/airline-safety.csv), [Jets ticket prices](https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/jets-buyer.csv), [Chipotle orders](https://github.com/TheUpshot/chipotle/blob/master/orders.tsv)
-* If your co-workers tend to create spreadsheets that are [unreadable by computers](https://bosker.wordpress.com/2014/12/05/the-government-statistical-services-terrible-spreadsheet-advice/), they may benefit from reading these [tips for releasing data in spreadsheets](http://www.clean-sheet.org/). (There are some additional suggestions in this [answer](http://stats.stackexchange.com/questions/83614/best-practices-for-creating-tidy-data/83711#83711) from Cross Validated.)
+### Datos ordenados
+* [Good Data Management Practices for Data Analysis](https://www.prometheusresearch.com/good-data-management-practices-for-data-analysis-tidy-data-part-2/) Resume brevemente los principios de "Datos ordenados".
+* [Hadley Wickham's paper](http://www.jstatsoft.org/article/view/v059i10) explica los datos ordenados en detalle e incluye muchos buenos ejemplos.
+* Ejemplo de un conjunto de datos ordenado: [Bob Ross](https://github.com/fivethirtyeight/data/blob/master/bob-ross/elements-by-episode.csv)
+* Ejemplos de conjuntos de datos desordenados: [NFL ticket prices](https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/2014-average-ticket-price.csv), [airline safety](https://github.com/fivethirtyeight/data/blob/master/airline-safety/airline-safety.csv), [Jets ticket prices](https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/jets-buyer.csv), [Chipotle orders](https://github.com/TheUpshot/chipotle/blob/master/orders.tsv)
+* Si sus compañeros de trabajo tienden a crear hojas de cálculo que son [unreadable by computers](https://bosker.wordpress.com/2014/12/05/the-government-statistical-services-terrible-spreadsheet-advice/),pueden beneficiarse de leer estos [tips for releasing data in spreadsheets](http://www.clean-sheet.org/). (Hay algunas sugerencias adicionales en este [answer](http://stats.stackexchange.com/questions/83614/best-practices-for-creating-tidy-data/83711#83711) de cruzado validado.)
 
-### Databases and SQL
-* This [GA slide deck](https://github.com/justmarkham/DAT5/blob/master/slides/20_sql.pdf) provides a brief introduction to databases and SQL. The [Python script](https://github.com/justmarkham/DAT5/blob/master/code/20_sql.py) from that lesson demonstrates basic SQL queries, as well as how to connect to a SQLite database from Python and how to query it using Pandas.
-* The repository for this [SQL Bootcamp](https://github.com/brandonmburroughs/sql_bootcamp) contains an extremely well-commented SQL script that is suitable for walking through on your own.
-* This [GA notebook](https://github.com/podopie/DAT18NYC/blob/master/classes/17-relational_databases.ipynb) provides a shorter introduction to databases and SQL that helpfully contrasts SQL queries with Pandas syntax.
-* [SQLZOO](http://sqlzoo.net/wiki/SQL_Tutorial), [Mode Analytics](http://sqlschool.modeanalytics.com/), [Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql), [Codecademy](https://www.codecademy.com/courses/learn-sql), [Datamonkey](http://datamonkey.pro/guess_sql/lessons/), and [Code School](http://campus.codeschool.com/courses/try-sql/contents) all have online beginner SQL tutorials that look promising. Code School also offers an [advanced tutorial](https://www.codeschool.com/courses/the-sequel-to-sql/), though it's not free.
-* [w3schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) has a sample database that allows you to practice SQL from your browser. Similarly, Kaggle allows you to query a large SQLite database of [Reddit Comments](https://www.kaggle.com/c/reddit-comments-may-2015/data) using their online "Scripts" application.
-* [What Every Data Scientist Needs to Know about SQL](http://joshualande.com/data-science-sql/) is a brief series of posts about SQL basics, and [Introduction to SQL for Data Scientists](http://bensresearch.com/downloads/SQL.pdf) is a paper with similar goals.
-* [10 Easy Steps to a Complete Understanding of SQL](https://web.archive.org/web/20150402234726/http://tech.pro/tutorial/1555/10-easy-steps-to-a-complete-understanding-of-sql) is a good article for those who have some SQL experience and want to understand it at a deeper level.
-* SQLite's article on [Query Planning](http://www.sqlite.org/queryplanner.html) explains how SQL queries "work".
-* [A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems) gives the pros and cons of SQLite, MySQL, and PostgreSQL.
-* If you want to go deeper into databases and SQL, Stanford has a well-respected series of [14 mini-courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about).
-* [Blaze](http://blaze.pydata.org) is a Python package enabling you to use Pandas-like syntax to query data living in a variety of data storage systems.
+### Databases y SQL
+* Esta [GA slide deck](https://github.com/justmarkham/DAT5/blob/master/slides/20_sql.pdf) Proporciona una breve introducción a las bases de datos y SQL.The [Python script](https://github.com/justmarkham/DAT5/blob/master/code/20_sql.py) De esa lección demuestra consultas básicas de SQL, así como cómo conectarse a una base de datos SQLite de Python y cómo consultarla usando pandas.
+* El repositorio de esto [SQL Bootcamp](https://github.com/brandonmburroughs/sql_bootcamp) Contiene un script SQL extremadamente bien comencionado que es adecuado para caminar por su cuenta.
+* Esta [GA notebook](https://github.com/podopie/DAT18NYC/blob/master/classes/17-relational_databases.ipynb) Proporciona una introducción más corta a las bases de datos y SQL que contrasta útilmente las consultas SQL con la sintaxis PANDAS.
+* [SQLZOO](http://sqlzoo.net/wiki/SQL_Tutorial), [Mode Analytics](http://sqlschool.modeanalytics.com/), [Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql), [Codecademy](https://www.codecademy.com/courses/learn-sql), [Datamonkey](http://datamonkey.pro/guess_sql/lessons/), and [Code School](http://campus.codeschool.com/courses/try-sql/contents) Todos tienen tutoriales SQL para principiantes en línea que parecen prometedores.Code School también ofrece unn [advanced tutorial](https://www.codeschool.com/courses/the-sequel-to-sql/), aunque no es gratis.
+* [w3schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) Tiene una base de datos de muestra que le permite practicar SQL desde su navegador.Del mismo modo, Kaggle le permite consultar una gran base de datos SQLite de [Reddit Comments](https://www.kaggle.com/c/reddit-comments-may-2015/data) Uso de su aplicación en línea "Scripts".
+* [What Every Data Scientist Needs to Know about SQL](http://joshualande.com/data-science-sql/) es una breve serie de publicaciones sobre los conceptos básicos de SQL, y [Introduction to SQL for Data Scientists](http://bensresearch.com/downloads/SQL.pdf) es un artículo con objetivos similares.
+* [10 Easy Steps to a Complete Understanding of SQL](https://web.archive.org/web/20150402234726/http://tech.pro/tutorial/1555/10-easy-steps-to-a-complete-understanding-of-sql) es un buen artículo para aquellos que tienen alguna experiencia SQL y quieren entenderlo en un nivel más profundo.
+* SArtículo de Qlite en [Query Planning](http://www.sqlite.org/queryplanner.html) Explica cómo las consultas SQL "funcionan".
+* [A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems) Da los pros y los contras de SQLite, MySQL y PostgreSQL.
+* Si desea profundizar en bases de datos y SQL, Stanford tiene una serie muy respetada de [14 mini-courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about).
+* [Blaze](http://blaze.pydata.org) es un paquete de Python que le permite usar una sintaxis similar a Pandas para consultar datos que viven en una variedad de sistemas de almacenamiento de datos.
 
-### Recommendation Systems
-* This [GA slide deck](https://github.com/justmarkham/DAT4/blob/master/slides/18_recommendation_engines.pdf) provides a brief introduction to recommendation systems, and the [Python script](https://github.com/justmarkham/DAT4/blob/master/code/18_recommenders_soutions.py) from that lesson demonstrates how to build a simple recommender.
-* Chapter 9 of [Mining of Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/bookL.pdf) (36 pages) is a more thorough introduction to recommendation systems.
-* Chapters 2 through 4 of [A Programmer's Guide to Data Mining](http://guidetodatamining.com/) (165 pages) provides a friendlier introduction, with lots of Python code and exercises.
-* The Netflix Prize was the famous competition for improving Netflix's recommendation system by 10%. Here are some useful articles about the Netflix Prize:
-    * [Netflix Recommendations: Beyond the 5 stars](http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html): Two posts from the Netflix blog summarizing the competition and their recommendation system
-    * [Winning the Netflix Prize: A Summary](http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/): Overview of the models and techniques that went into the winning solution
-    * [A Perspective on the Netflix Prize](http://www2.research.att.com/~volinsky/papers/chance.pdf): A summary of the competition by the winning team
-* This [paper](http://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf) summarizes how Amazon.com's recommendation system works, and this [Stack Overflow Q&A](http://stackoverflow.com/questions/2323768/how-does-the-amazon-recommendation-feature-work) has some additional thoughts.
-* [Facebook](https://code.facebook.com/posts/861999383875667/recommending-items-to-more-than-a-billion-people/) and [Etsy](https://codeascraft.com/2014/11/17/personalized-recommendations-at-etsy/) have blog posts about how their recommendation systems work.
-* [The Global Network of Discovery](http://www.gnod.com/) provides some neat recommenders for music, authors, and movies.
-* [The People Inside Your Machine](http://www.npr.org/blogs/money/2015/01/30/382657657/episode-600-the-people-inside-your-machine) (23 minutes) is a Planet Money podcast episode about how Amazon Mechanical Turks can assist with recommendation engines (and machine learning in general).
-* Coursera has a [course](https://www.coursera.org/learn/recommender-systems) on recommendation systems, if you want to go even deeper into the material.
+### Sistemas de recomendación
+* Esta [GA slide deck](https://github.com/justmarkham/DAT4/blob/master/slides/18_recommendation_engines.pdf) provides a brief introduction to recommendation systems, and the [Python script](https://github.com/justmarkham/DAT4/blob/master/code/18_recommenders_soutions.py) De esa lección demuestra cómo construir un simple recomendador.
+*Capítulo 9 de [Mining of Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/bookL.pdf) (36 pages) es una introducción más exhaustiva a los sistemas de recomendación.
+* Capítulos 2 a 4 de [A Programmer's Guide to Data Mining](http://guidetodatamining.com/) (165 páginas) proporciona una introducción más amigable, con mucho código y ejercicios de Python.
+* El Premio Netflix fue la famosa competencia para mejorar el sistema de recomendaciones de Netflix en un 10%.Aquí hay algunos artículos útiles sobre el premio Netflix:
+    * [Netflix Recommendations: Beyond the 5 stars](http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html): Dos publicaciones del blog de Netflix que resume la competencia y su sistema de recomendación
+    * [Winning the Netflix Prize: A Summary](http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/): Descripción general de los modelos y técnicas que entraron en la solución ganadora
+    * [A Perspective on the Netflix Prize](http://www2.research.att.com/~volinsky/papers/chance.pdf): Un resumen de la competencia del equipo ganador
+* Esta [paper](http://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf) resume cómo funciona el sistema de recomendación de Amazon.com, y esto[Stack Overflow Q&A](http://stackoverflow.com/questions/2323768/how-does-the-amazon-recommendation-feature-work)tiene algunos pensamientos adicionales.
+* [Facebook](https://code.facebook.com/posts/861999383875667/recommending-items-to-more-than-a-billion-people/) y [Etsy](https://codeascraft.com/2014/11/17/personalized-recommendations-at-etsy/)Tenga publicaciones de blog sobre cómo funcionan sus sistemas de recomendación.
+* [The Global Network of Discovery](http://www.gnod.com/) Proporciona algunos recomendadores ordenados para música, autores y películas.
+* [The People Inside Your Machine](http://www.npr.org/blogs/money/2015/01/30/382657657/episode-600-the-people-inside-your-machine) (23 minutos) es un episodio de podcast de Money Planet sobre cómo Amazon Mechanical Turks puede ayudar con los motores de recomendación (y el aprendizaje automático en general).
+* Coursera tiene un [course](https://www.coursera.org/learn/recommender-systems) En los sistemas de recomendación, si desea profundizar aún más en el material.
