@@ -250,10 +250,10 @@ Tuesday | Thursday
 * Ejercicio con los datos del jugador de la NBA ([cuaderno] (cuaderno/08_nba_knn.ipynb), [data] (https://github.com/justmarkham/dat4-students/blob/master/kerry/final/nba_players_2015.csv), [Dicción de datos] (https://github.com/justmarkham/dat-project-examples/blob/master/pdf/nba_paper.pdf)))
 * Explorando la compensación de varianza de sesgo ([cuaderno] (cuadernos/08_bias_variance.ipynb))
 
-**Homework:**
-* Reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
-* Read Kevin's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), read Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
-* Work on your project... your first project presentation is in less than two weeks!
+**Tarea:**
+* Asignación de lectura en la [compensación de varianza de sesgo] (tarea/09_bias_variance.md)
+* Lea la [Introducción a la reproducibilidad] de Kevin (http://www.dataschool.io/reproducibilidad-is-not-just-for-researchers/), lea la guía de Jeff Leek para crear un análisis reproducible] (https: // github.com/jtleek/dataHaring), y vea este video relacionado [Video de Informe de Colbert] (http://thecolberstreport.cc.com/videos/dcyvro/austerity-s-sepersheet-error) (8 minutos).
+* Trabaje en su proyecto ... ¡su primera presentación del proyecto está en menos de dos semanas!
 
 **KNN Resources:**
 * For a recap of the key points about KNN and scikit-learn, watch [Getting started in scikit-learn with the famous iris dataset](https://www.youtube.com/watch?v=hd1W4CyPX58) (15 minutes) and [Training a machine learning model with scikit-learn](https://www.youtube.com/watch?v=RlQuVL6-qe8) (20 minutes).
