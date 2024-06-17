@@ -52,15 +52,15 @@ Tuesday | Thursday
 * [Tarea y presentaciones de proyectos](http://bit.ly/dat8homework)
 -->
 
-### [Course project](project/README.md)
+### [Proyecto del curso](project/README.md)
 
-### [Comparison of machine learning models](other/model_comparison.md)
+### [Comparación de modelos de aprendizaje automático](other/model_comparison.md)
 
-### [Comparison of model evaluation procedures and metrics](other/model_evaluation_comparison.md)
+### [Comparación de procedimientos y métricas de evaluación del modelo](other/model_evaluation_comparison.md)
 
-### [Advice for getting better at data science](other/advice.md)
+### [Consejo para mejorar en la ciencia de datos](other/advice.md)
 
-### [Additional resources](#additional-resources-1)
+### [Recursos adicionales](#additional-resources-1)
 
 -----
 
@@ -78,76 +78,75 @@ Tuesday | Thursday
 * If your laptop has any setup issues, please work with us to resolve them by Thursday. If your laptop has not yet been checked, you should come early on Thursday, or just walk through the [setup checklist](other/setup_checklist.md) yourself (and let us know you have done so).
 
 **Recursos:**
-* For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
-* For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
-* Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
-* Keep up with local data-related events through the Data Community DC [event calendar](http://www.datacommunitydc.org/calendar) or [weekly newsletter](http://www.datacommunitydc.org/newsletter).
-
+*Para una mirada útil a los diferentes tipos de científicos de datos, lea [analizar los analizadores] (http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/analyzing_the_analyzers.pdf) (32 páginas).
+* Para algunas ideas sobre lo que es ser un científico de datos, lea estas publicaciones breves de [Win-vector] (http://www.win-vector.com/blog/2012/09/on-being-a-data-Scientist/) y [DataScope Analytics] (http://datascopeopealytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
+* Quora tiene una [FAQ de tema de ciencias de datos] (https://www.quora.com/data-science) con muchas preguntas y respuestas interesantes.
+* Manténgase al día con los eventos locales relacionados con los datos a través del Data Community DC [Calendario de eventos] (http://www.datacommunitydc.org/calendar) o [boletín semanal] (http://www.datacommunitydc.org/newletter).
 -----
 
-### Class 2: Command Line and Version Control
-* Slack tour
-* Review the command line pre-class exercise ([code](code/02_command_line.md))
+### Clase 2: Línea de comandos y control de versiones
+* Slack Tour
+* Revise el ejercicio previo a la clase de la línea de comando ([code](code/02_command_line.md))
 * Git and GitHub ([slides](slides/02_git_github.pdf))
-* Intermediate command line
+* Línea de comando intermedia
 
-**Homework:**
-* Complete the [command line homework assignment](homework/02_command_line_chipotle.md) with the Chipotle data.
-* Review the code from the [beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) Python workshops. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time this weekend practicing Python:
-    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
-    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
-    * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
-    * If you have more time, try missions 2 and 3 from [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) course.
-    * If you've already mastered these topics and want more of a challenge, try solving [Python Challenge](http://www.pythonchallenge.com/) number 1 (decoding a message) and send me your code in Slack.
-* To give you a framework for thinking about your project, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes). (This is the [IPython notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb) shown in the video.) Alternatively, read [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/), which focuses on a specific machine learning model called decision trees.
-* **Optional:** Browse through some more [example student projects](https://github.com/justmarkham/DAT-project-examples), which may help to inspire your own project!
+**Tarea:**
+* Completar la [command line homework assignment](homework/02_command_line_chipotle.md) con los datos de Chipotle.
+* Revise el código del [beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) Talleres de Python.Si no se siente cómodo con ninguno de los contenidos (excluyendo las secciones de "solicitudes" y "API"), debe pasar algún tiempo este fin de semana practicando Python:
+    * [Introduction to Python](http://introtopython.org/)hace un gran trabajo explicando Python Essentials e incluye toneladas de código de ejemplo.
+    * Si te gusta aprender de un libro, [Python for Informatics](http://www.pythonlearn.com/html-270/) Tiene capítulos útiles sobre cadenas, listas y diccionarios.
+    * Si prefiere ejercicios interactivos, pruebe estas lecciones de [Codecademy](http://www.codecademy.com/en/tracks/python): "Python listas y diccionarios" y "un día en el supermercado".
+    *Si tiene más tiempo, pruebe las misiones 2 y 3 de [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) curso.
+    *Si ya ha dominado estos temas y quiere más desafío, intente resolver [Python Challenge](http://www.pythonchallenge.com/) nNúmero 1 (decodificando un mensaje) y envíeme su código en Slack.
+* Para darle un marco para pensar en su proyecto, mire [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes). (Este es el [IPython notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb) shown en el video.) Alternativamente, lea [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/), que se centra en un modelo de aprendizaje automático específico llamado árboles de decisión.
+* **Opcional:** Navegar por un poco más [example student projects](https://github.com/justmarkham/DAT-project-examples), ¡Lo que puede ayudar a inspirar su propio proyecto!
 
-**Git and Markdown Resources:**
-* [Pro Git](http://git-scm.com/book/en/v2) is an excellent book for learning Git. Read the first two chapters to gain a deeper understanding of version control and basic commands.
-* If you want to practice a lot of Git (and learn many more commands), [Git Immersion](http://gitimmersion.com/) looks promising.
-* If you want to understand how to contribute on GitHub, you first have to understand [forks and pull requests](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/).
-* [GitRef](http://gitref.org/) is my favorite reference guide for Git commands, and [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) is a shorter guide with commands grouped by workflow.
-* [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explains why GitHub is so popular among developers.
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides a thorough set of Markdown examples with concise explanations. GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a simpler and more attractive guide, but is less comprehensive.
+**Recursos Git y Markdown:**
+* [Pro Git](http://git-scm.com/book/en/v2) esUnExcelenteLibroParaAprenderGitLeaLosDosPrimerosCapítulosParaObtenerUnaComprensiónMásProfundaDelControlDeVersionesYElComandoBásicos.
+* siQuieresPracticarMuchoGit (yAprenderMuchosMásComandos), [Git Immersion](http://gitimmersion.com/) parecePrometedor
+* siQuieresEntenderCómoContribuirEnGitHub,PrimeroTienesQueEntender [forks and pull requests](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/).
+* [GitRef](http://gitref.org/)esMiGuíaDeReferenciaFavoritaParaLosComandosGit,Y [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) isUnaGuíaMásCortaConComandosAgrupadosPorFlujoDeTrabajo
+* [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explicaPorQuéGithubEsTanPopularEntreLosDesarrolladores
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) proporcionaUnConjuntoExhaustivoDeEjemplosDeMarkdownConExplicacionesConcisasGithub's[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)esUnaGuíaMásSimpleYAtractiva,PeroEsMenosIntegral
 
-**Command Line Resources:**
-* If you want to go much deeper into the command line, [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do) is a great book. The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" (a virtual machine with many more command line tools), as well as a long reference guide to popular command line tools.
-* If you want to do more at the command line with CSV files, try out [csvkit](http://csvkit.readthedocs.org/), which can be installed via `pip`.
+**Recursos de línea de comandos:**
+* Si quieres profundizar mucho en la línea de comando, [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do) es un gran libro.El [companion website](http://datascienceatthecommandline.com/) Proporciona instrucciones de instalación para una "caja de herramientas de ciencia de datos" (una máquina virtual con muchas más herramientas de línea de comandos), así como una larga guía de referencia para las herramientas de línea de comandos populares.
+* Si desea hacer más en la línea de comando con archivos CSV, pruebe [csvkit](http://csvkit.readthedocs.org/), que se puede instalar a través de `pip`.
 
 -----
 
-### Class 3: Data Reading and Cleaning
-* Git and GitHub assorted tips ([slides](slides/02_git_github.pdf))
-* Review command line homework ([solution](homework/02_command_line_chipotle.md))
-* Python:
-    * Spyder interface
-    * Looping exercise
-    * Lesson on file reading with airline safety data ([code](code/03_file_reading.py), [data](data/airlines.csv), [article](http://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/))
-    * Data cleaning exercise
-    * Walkthrough of Python homework with Chipotle data ([code](code/03_python_homework_chipotle.py), [data](data/chipotle.tsv), [article](http://www.nytimes.com/interactive/2015/02/17/upshot/what-do-people-actually-order-at-chipotle.html))
+### Clase 3: Lectura y limpieza de datos
+* Git y Github Surtido consejos([slides](slides/02_git_github.pdf))
+* Revisar la tarea de la línea de comando ([solution](homework/02_command_line_chipotle.md))
+* Pitón:
+* Interfaz Spyder
+* Ejercicio de bucle
+* Lección de lectura de archivos con datos de seguridad de la aerolínea ([code](code/03_file_reading.py), [data](data/airlines.csv), [article](http://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/))
+    *Ejercicio de limpieza de datos
+    * Tutorial de la tarea de Python con datos de chipotle ([code](code/03_python_homework_chipotle.py), [data](data/chipotle.tsv), [article](http://www.nytimes.com/interactive/2015/02/17/upshot/what-do-people-actually-order-at-chipotle.html))
 
-**Homework:**
-* Complete the [Python homework assignment](code/03_python_homework_chipotle.py) with the Chipotle data, add a commented Python script to your GitHub repo, and submit a link using the homework submission form. You have until Tuesday (9/1) to complete this assignment. (**Note:** Pandas, which is covered in class 4, should not be used for this assignment.)
+**Tarea:**
+* Completar la [Python homework assignment](code/03_python_homework_chipotle.py) Con los datos de Chipotle, agregue un script de Python comentado a su repositorio de GitHub y envíe un enlace utilizando el formulario de envío de tareas.Tienes hasta el martes (9/1) para completar esta tarea. (**Nota: ** Los pandas, que se cubren en la clase 4, no deben usarse para esta tarea).
 
 **Resources:**
-* [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
-* [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) is a great flowchart explaining how to debug Python errors.
-* [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
-* If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
+* [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) Puede ser útil si todavía está confundido por las comprensiones de la lista.
+* [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) es un gran diagrama de flujo que explica cómo depurar los errores de Python.
+* [PEP 8](https://www.python.org/dev/peps/pep-0008/) es la guía de estilo "clásica" de Python, y vale la pena leer si desea escribir un código legible que sea consistente con el resto de la comunidad de Python.
+* Si quieres entender a Python en un nivel más profundo, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html)y [Python Names and Values](http://nedbatchelder.com/text/names1.html)son excelentes presentaciones.
 
 -----
 
-### Class 4: Exploratory Data Analysis
+### Clase 4: Análisis de datos exploratorios
 * Pandas ([code](code/04_pandas.py)):
-    * MovieLens 100k movie ratings ([data](data/u.user), [data dictionary](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt), [website](http://grouplens.org/datasets/movielens/))
-    * Alcohol consumption by country ([data](data/drinks.csv), [article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/))
-    * Reports of UFO sightings ([data](data/ufo.csv), [website](http://www.nuforc.org/webreports.html))
-* Project question exercise
+    * MOVIELENS 100K Clasificaciones de películas ([data](data/u.user), [data dictionary](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt), [website](http://grouplens.org/datasets/movielens/))
+    * Consumo de alcohol por país ([data](data/drinks.csv), [article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/))
+    * Informes de avistamientos de ovnis([data](data/ufo.csv), [website](http://www.nuforc.org/webreports.html))
+* Ejercicio de preguntas del proyecto
 
-**Homework:**
-* The deadline for discussing your project ideas with an instructor is Tuesday (9/1), and your project question write-up is due Thursday (9/3).
-* Read [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) for an excellent example of exploratory data analysis.
-* Read [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) for a classic example of why visualization is useful.
+**Tarea:**
+* La fecha límite para discutir las ideas de su proyecto con un instructor es el martes (9/1), y la redacción de la pregunta de su proyecto se vence el juevesy (9/3).
+* Leer[How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) Para un excelente ejemplo de análisis de datos exploratorios.
+* Leer [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) Para un ejemplo clásico de por qué la visualización es útil.
 
 **Resources:**
 * Browsing or searching the Pandas [API Reference](http://pandas.pydata.org/pandas-docs/stable/api.html) is an excellent way to locate a function even if you don't know its exact name.
