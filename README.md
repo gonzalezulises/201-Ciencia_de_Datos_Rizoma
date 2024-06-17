@@ -35,21 +35,21 @@ Tuesday | Thursday
 * Practique Python utilizando los recursos a continuación.
 ->
 
-### Python Resources
-* [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Good beginner material, including tons of in-browser exercises.
-* [Dataquest](https://www.dataquest.io): Uses interactive exercises to teach Python in the context of data science.
-* [Google's Python Class](https://developers.google.com/edu/python/): Slightly more advanced, including hours of useful lecture videos and downloadable exercises (with solutions).
-* [Introduction to Python](http://introtopython.org/): A series of IPython notebooks that do a great job explaining core Python concepts and data structures.
-* [Python for Informatics](http://www.pythonlearn.com/book.php): A very beginner-oriented book, with associated [slides](https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing) and [videos](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ).
-* [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/gist/rpmuller/5920182): Read through the Overview section for a very quick introduction to Python.
-* [Python 2.7 Quick Reference](https://github.com/justmarkham/python-reference/blob/master/reference.py): My beginner-oriented guide that demonstrates Python concepts through short, well-commented examples.
-* [Beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) workshop code: Useful for review and reference.
-* [Python Tutor](http://pythontutor.com/): Allows you to visualize the execution of Python code.
+### Recursos de Python
+* [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Buen material para principiantes, incluidos toneladas de ejercicios en el navegador.
+* [Dataquest](https://www.dataquest.io): Utiliza ejercicios interactivos para enseñar a Python en el contexto de la ciencia de datos.
+* [Google's Python Class](https://developers.google.com/edu/python/): Un poco más avanzado, incluidas horas de videos útiles de conferencias y ejercicios descargables (con soluciones).
+* [Introduction to Python](http://introtopython.org/): Una serie de cuadernos de iPython que hacen un gran trabajo explicando conceptos y estructuras de datos de Core Python.
+* [Python for Informatics](http://www.pythonlearn.com/book.php): Un libro muy orientado a principiante, con asociado [slides](https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing) and [videos](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ).
+* [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/gist/rpmuller/5920182): Lea la sección de descripción general para una introducción muy rápida a Python.
+* [Python 2.7 Quick Reference](https://github.com/justmarkham/python-reference/blob/master/reference.py):Mi guía orientada a principiantes que demuestra conceptos de pitón a través de un ejemplo corto y bien commentados.
+* [Beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) Código de taller: útil para revisión y referencia.
+* [Python Tutor](http://pythontutor.com/): Le permite visualizar la ejecución del código Python.
 
 <!--
-### Submission Forms
-* [Feedback form](http://bit.ly/dat8feedback)
-* [Homework and project submissions](http://bit.ly/dat8homework)
+### Formularios de presentación
+* [Formulario de comentarios](http://bit.ly/dat8feedback)
+* [Tarea y presentaciones de proyectos](http://bit.ly/dat8homework)
 -->
 
 ### [Course project](project/README.md)
