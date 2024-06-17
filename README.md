@@ -1,5 +1,6 @@
 ## Repositorio de curso sobre Data Analytics
 
+Business Analytics (BA) consiste en explorar y analizar grandes cantidades de datos para obtener información sobre el desempeño empresarial pasado con el fin de guiar la planificación empresarial futura. Este curso presenta un conjunto de métodos avanzados centrados en datos que cubren las tres direcciones principales de BA: descriptivo (“¿qué pasó?”), predictivo (“¿qué pasará?”) y prescriptivo (“¿qué debería pasar?”). Los métodos se aplicarán a varios casos de negocios con el objetivo de demostrar cómo extraer valor comercial de los datos, brindar soporte para la toma de decisiones basada en datos junto con principios efectivos de gestión de datos.
 Materiales de soporte para la formación en Data Analytics
 
 **Instructor:** Ulises Gonzalez ([Rizoma](http://www.rizo.ma/), [Linkedin](https://www.linkedin.com/in/ulisesgonzalez/)
@@ -20,19 +21,19 @@ Tuesday | Thursday
 10/20: [Advanced scikit-learn, Clustering](#class-19-advanced-scikit-learn-and-clustering) | 10/22: [Regularization, Regex](#class-20-regularization-and-regular-expressions)
 10/27: [Course Review](#class-21-course-review-and-final-project-presentation) | 10/29: [Final Project Presentation](#class-22-final-project-presentation)
 
-<!--
-### Before the Course Begins
-* Install [Git](http://git-scm.com/downloads).
-* Create an account on the [GitHub](https://github.com/) website.
-    * It is not necessary to download "GitHub for Windows" or "GitHub for Mac"
-* Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
-    * If you choose not to use Anaconda, here is a list of the [Python packages](other/python_packages.md) you will need to install during the course.
-* We would like to check the setup of your laptop before the course begins:
-    * You can have your laptop checked before the intermediate Python workshop on Tuesday 8/11 (5:30pm-6:30pm), at the [15th & K Starbucks](http://www.yelp.com/biz/starbucks-washington-15) on Saturday 8/15 (1pm-3pm), or before class on Tuesday 8/18 (5:30pm-6:30pm).
-    * Alternatively, you can walk through the [setup checklist](other/setup_checklist.md) yourself.
-* Once you receive an email invitation from Slack, join our "DAT8 team" and add your photo.
-* Practice Python using the resources below.
--->
+<!-
+### Antes de que comience el curso
+* Instalar [git] (http://git-scm.com/downloads).
+* Cree una cuenta en el sitio web [Github] (https://github.com/).
+* No es necesario descargar "GitHub para Windows" o "Github para Mac"
+* Instale la [Distribución Anaconda] (http://continuum.io/downloads) de Python 2.7x.
+* Si elige no usar Anaconda, aquí hay una lista de los [paquetes Python] (otros/python_packages.md) Deberá instalar durante el curso.
+* Nos gustaría verificar la configuración de su computadora portátil antes de que comience el curso:
+* Puede verificar su computadora portátil antes del taller intermedio de Python el martes 8/11 (5:30 pm-6:30pm), en el [15th & K Starbucks] (http://www.yelp.com/biz/starbucks-Washington-15) el sábado 8/15 (1 pm-3pm), o antes de la clase el martes 8/18 (5:30 pm-6:30pm).
+* Alternativamente, puede caminar por la [lista de verificación de configuración] (otro/setup_checklist.md) usted mismo.
+* Una vez que reciba una invitación por correo electrónico de Slack, únase a nuestro "equipo DAT8" y agregue su foto.
+* Practique Python utilizando los recursos a continuación.
+->
 
 ### Python Resources
 * [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Good beginner material, including tons of in-browser exercises.
@@ -64,19 +65,19 @@ Tuesday | Thursday
 -----
 
 ### Class 1: Introducción al Business Analytics
+* Bienvenida a la formación
 * Resumen del curso([slides](slides/01_course_overview.pdf))
-* Introducción a la ciencia de datos([slides](slides/01_intro_to_data_science.pdf))
+* Introducción al Business Analytics ([slides](slides/01_intro_to_data_science.pdf))
 * Discuta el proyecto del curso: [requirements](project/README.md) and [example projects](https://github.com/justmarkham/DAT-project-examples)
 * Tipos de datos([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
-* Bienvenida a la formación
 
-**Homework:**
+**Asignación:**
 * Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows).
 * Read through this [command line reference](code/02_command_line.md), and complete the pre-class exercise at the bottom. (There's nothing you need to submit once you're done.)
 * Watch videos 1 through 8 (21 minutes) of [Introduction to Git and GitHub](https://www.youtube.com/playlist?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD), or read sections 1.1 through 2.2 of [Pro Git](http://git-scm.com/book/en/v2).
 * If your laptop has any setup issues, please work with us to resolve them by Thursday. If your laptop has not yet been checked, you should come early on Thursday, or just walk through the [setup checklist](other/setup_checklist.md) yourself (and let us know you have done so).
 
-**Resources:**
+**Recursos:**
 * For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
 * For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
 * Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
